@@ -25,6 +25,8 @@ namespace Kal_Quests_Tracker
         {
             InitializeComponent();
             InitializeApplication();
+
+
         }
 
         private void InitializeApplication()
@@ -68,6 +70,8 @@ namespace Kal_Quests_Tracker
             LoadDefaultProfile();
             RefreshQuestList();
             ShowWelcomeMessage();
+
+ 
         }
 
         private void ShowWelcomeMessage()
@@ -299,13 +303,21 @@ namespace Kal_Quests_Tracker
 
             // Add steps section
             AppendColoredText("STEPS:\n", Color.Yellow, true);
+            string questKey = currentProfile?.GetQuestKey(quest) ?? "";
+            bool questCompleted = IsQuestCompleted(quest);
+
             for (int i = 0; i < quest.Steps.Count; i++)
             {
-                AppendColoredText((i + 1) + ". ", Color.White, false);
-                AppendStepWithColors(quest.Steps[i]);
+                bool stepCompleted = questCompleted || (currentProfile?.IsStepCompleted(questKey, i) ?? false);
+
+                // Add checkbox and step number
+                string checkbox = stepCompleted ? "☑ " : "☐ ";
+                AppendColoredText(checkbox + (i + 1) + ". ", Color.White, false);
+
+                // Add the step text with colors and strikethrough if completed
+                AppendStepWithColors(quest.Steps[i], stepCompleted);
                 AppendColoredText("\n", Color.White, false);
             }
-
             AppendColoredText("\n", Color.White, false);
 
             // Add rewards section
@@ -317,7 +329,7 @@ namespace Kal_Quests_Tracker
             }
         }
         
-        private void AppendStepWithColors(string step)
+        private void AppendStepWithColors(string step, bool strikethrough = false)
         {
             // Clean the step first - remove duplicate text and parentheses numbers
             string cleanedStep = CleanStepText(step);
@@ -411,12 +423,12 @@ namespace Kal_Quests_Tracker
                 if (match.start > currentIndex)
                 {
                     string beforeText = cleanedStep.Substring(currentIndex, match.start - currentIndex);
-                    AppendColoredText(beforeText, Color.White, false);
+                    AppendColoredText(beforeText, Color.White, false, strikethrough);
                 }
 
                 // Add the colored match
                 string matchText = cleanedStep.Substring(match.start, match.length);
-                AppendColoredText(matchText, match.color, false);
+                AppendColoredText(matchText, match.color, false, strikethrough);
 
                 currentIndex = match.start + match.length;
             }
@@ -425,7 +437,7 @@ namespace Kal_Quests_Tracker
             if (currentIndex < cleanedStep.Length)
             {
                 string remainingText = cleanedStep.Substring(currentIndex);
-                AppendColoredText(remainingText, Color.White, false);
+                AppendColoredText(remainingText, Color.White, false, strikethrough);
             }
         }
 
@@ -445,7 +457,7 @@ namespace Kal_Quests_Tracker
             return step;
         }
 
-        private void AppendColoredText(string text, Color color, bool bold = false)
+        private void AppendColoredText(string text, Color color, bool bold = false, bool strikethrough = false)
         {
             int start = richTextBoxQuestDetails.TextLength;
             richTextBoxQuestDetails.AppendText(text);
@@ -453,12 +465,17 @@ namespace Kal_Quests_Tracker
 
             richTextBoxQuestDetails.Select(start, end - start);
             richTextBoxQuestDetails.SelectionColor = color;
-            if (bold)
-            {
-                richTextBoxQuestDetails.SelectionFont = new Font(richTextBoxQuestDetails.Font, FontStyle.Bold);
-            }
-            richTextBoxQuestDetails.Select(end, 0);
 
+            FontStyle style = FontStyle.Regular;
+            if (bold) style |= FontStyle.Bold;
+            if (strikethrough) style |= FontStyle.Strikeout;
+
+            if (style != FontStyle.Regular)
+            {
+                richTextBoxQuestDetails.SelectionFont = new Font(richTextBoxQuestDetails.Font, style);
+            }
+
+            richTextBoxQuestDetails.Select(end, 0);
         }
 
         private void listBoxQuests_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -467,6 +484,30 @@ namespace Kal_Quests_Tracker
             {
                 ToggleQuestCompletion(selectedQuest);
             }
+        }
+
+        private void richTextBoxQuestDetails_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ToggleStepCompletion(int stepIndex)
+        {
+            if (currentSelectedQuest == null || currentProfile == null) return;
+
+            string questKey = currentProfile.GetQuestKey(currentSelectedQuest);
+
+            if (currentProfile.IsStepCompleted(questKey, stepIndex))
+            {
+                currentProfile.MarkStepIncomplete(questKey, stepIndex);
+            }
+            else
+            {
+                currentProfile.MarkStepCompleted(questKey, stepIndex);
+            }
+
+            // Refresh the quest details to show updated step status
+            DisplayQuestDetails(currentSelectedQuest);
         }
 
         private void ToggleQuestCompletion(Quest selectedQuest)
@@ -519,6 +560,9 @@ namespace Kal_Quests_Tracker
 
                 // Refresh the quest list to show updated completion status
                 listBoxQuests.Invalidate();
+
+                // Refresh the quest details to show updated step status
+                DisplayQuestDetails(currentSelectedQuest);
             }
             else if (currentProfile == null)
             {
@@ -689,6 +733,7 @@ namespace Kal_Quests_Tracker
                     filteredQuests = new List<Quest>();
                     currentProfile = null;
                     textBoxCharacterName.Text = "";
+                    ShowWelcomeMessage();
                     LoadQuestData();
                     RefreshQuestList();
                     // Refresh the quest list to show updated completion status
@@ -702,5 +747,37 @@ namespace Kal_Quests_Tracker
                 MessageBox.Show("Please enter a character name first!", "No Character", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void RichTextBoxQuestDetails_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (currentProfile == null )
+            {
+                MessageBox.Show("Please enter a character name first!", "No Character", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (currentSelectedQuest == null) return;
+            int charIndex = richTextBoxQuestDetails.GetCharIndexFromPosition(e.Location);
+            int lineIndex = richTextBoxQuestDetails.GetLineFromCharIndex(charIndex);
+            string[] lines = richTextBoxQuestDetails.Text.Split('\n');
+            if (lineIndex <= 0 || lineIndex >= lines.Length) return;
+
+            string clickedLine = lines[lineIndex];
+            if (clickedLine.StartsWith("☐ ") || clickedLine.StartsWith("☑ "))
+            {
+                // I let ai generate this regex because i was too lazy to do it myself
+                var match = Regex.Match(clickedLine, @"^[☐☑]\s+(\d+)\.");
+                if (match.Success && int.TryParse(match.Groups[1].Value, out int stepNumber))
+                {
+                    int stepIndex = stepNumber - 1; 
+
+                    if (stepIndex >= 0 && stepIndex < currentSelectedQuest.Steps.Count)
+                    {
+                        ToggleStepCompletion(stepIndex);
+                    }
+                }
+            }
+        }
+
+
     }
 }

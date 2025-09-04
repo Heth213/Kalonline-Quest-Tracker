@@ -57,6 +57,7 @@
             this.panelLeft = new System.Windows.Forms.Panel();
             this.listBoxQuests = new System.Windows.Forms.ListBox();
             this.panelQuestFilters = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.checkBoxShowCompleted = new System.Windows.Forms.CheckBox();
             this.comboBoxQuestType = new System.Windows.Forms.ComboBox();
             this.labelQuestType = new System.Windows.Forms.Label();
@@ -67,7 +68,7 @@
             this.buttonLoadProfile = new System.Windows.Forms.Button();
             this.textBoxCharacterName = new System.Windows.Forms.TextBox();
             this.labelCharacterName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelMain.SuspendLayout();
             this.panelRight.SuspendLayout();
             this.panelQuestDetails.SuspendLayout();
@@ -112,18 +113,25 @@
             // 
             this.richTextBoxQuestDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.richTextBoxQuestDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxQuestDetails.CausesValidation = false;
+            this.richTextBoxQuestDetails.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.richTextBoxQuestDetails.DetectUrls = false;
             this.richTextBoxQuestDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBoxQuestDetails.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxQuestDetails.ForeColor = System.Drawing.Color.White;
+            this.richTextBoxQuestDetails.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.richTextBoxQuestDetails.Location = new System.Drawing.Point(0, 50);
             this.richTextBoxQuestDetails.Name = "richTextBoxQuestDetails";
             this.richTextBoxQuestDetails.ReadOnly = true;
             this.richTextBoxQuestDetails.Size = new System.Drawing.Size(804, 632);
             this.richTextBoxQuestDetails.TabIndex = 1;
             this.richTextBoxQuestDetails.Text = "Select a quest to view details...";
+            this.richTextBoxQuestDetails.WordWrap = false;
+            this.richTextBoxQuestDetails.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RichTextBoxQuestDetails_MouseDoubleClick);
             // 
             // panelQuestHeader
             // 
+            this.panelQuestHeader.Controls.Add(this.label2);
             this.panelQuestHeader.Controls.Add(this.checkBoxQuestCompleted);
             this.panelQuestHeader.Controls.Add(this.labelQuestTitle);
             this.panelQuestHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -199,6 +207,18 @@
             this.panelQuestFilters.Padding = new System.Windows.Forms.Padding(10);
             this.panelQuestFilters.Size = new System.Drawing.Size(260, 60);
             this.panelQuestFilters.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(124, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(126, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "(Double click to complete)";
             // 
             // checkBoxShowCompleted
             // 
@@ -340,17 +360,17 @@
             this.labelCharacterName.TabIndex = 0;
             this.labelCharacterName.Text = "Character Name:";
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(124, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "(Double click to complete)";
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(156, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "(Double click STEPS to cross-out)";
             // 
             // Form1
             // 
@@ -384,6 +404,7 @@
         private System.Windows.Forms.Label lblCredit;
         private System.Windows.Forms.Button buttonReset;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 
 }
