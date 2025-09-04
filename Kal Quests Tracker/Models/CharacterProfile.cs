@@ -12,6 +12,9 @@ namespace Kal_Quests_Tracker.Models
         [JsonProperty("CompletedQuests")]
         public HashSet<string> CompletedQuests { get; set; }
 
+        [JsonProperty("CompletedSteps")]
+        public Dictionary<string, HashSet<int>> CompletedSteps { get; set; }
+
         [JsonProperty("CreatedDate")]
         public DateTime CreatedDate { get; set; }
 
@@ -21,6 +24,7 @@ namespace Kal_Quests_Tracker.Models
         public CharacterProfile()
         {
             CompletedQuests = new HashSet<string>();
+            CompletedSteps = new Dictionary<string, HashSet<int>>();
             CreatedDate = DateTime.Now;
             LastModified = DateTime.Now;
         }
@@ -50,6 +54,41 @@ namespace Kal_Quests_Tracker.Models
         public string GetQuestKey(Quest quest)
         {
             return quest.Type + "_" + quest.QuestIdString + "_" + quest.Level;
+        }
+
+        public void MarkStepCompleted(string questKey, int stepIndex)
+        {
+            if (!CompletedSteps.ContainsKey(questKey))
+            {
+                CompletedSteps[questKey] = new HashSet<int>();
+            }
+            CompletedSteps[questKey].Add(stepIndex);
+            LastModified = DateTime.Now;
+        }
+
+        public void MarkStepIncomplete(string questKey, int stepIndex)
+        {
+            if (CompletedSteps.ContainsKey(questKey))
+            {
+                CompletedSteps[questKey].Remove(stepIndex);
+                if (CompletedSteps[questKey].Count == 0)
+                {
+                    CompletedSteps.Remove(questKey);
+                }
+            }
+            LastModified = DateTime.Now;
+        }
+
+        public bool IsStepCompleted(string questKey, int stepIndex)
+        {
+            return CompletedSteps.ContainsKey(questKey) &&
+                   CompletedSteps[questKey].Contains(stepIndex);
+        }
+
+        public HashSet<int> GetCompletedSteps(string questKey)
+        {
+            return CompletedSteps.ContainsKey(questKey) ?
+                   CompletedSteps[questKey] : new HashSet<int>();
         }
     }
 }
