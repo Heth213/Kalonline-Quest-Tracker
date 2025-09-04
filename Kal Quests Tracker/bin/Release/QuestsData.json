@@ -1,0 +1,1746 @@
+{
+    "Quests": [
+        {
+            "Type": "QUEST",
+            "QuestId": 1,
+            "Level": 0,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Chief Guard (Sea-Geun)\" (21).",
+                "Find \"Shee-Geun's Message\", which are dropped by \"Lower Class Demons\".",
+                "Talk to \"Chief Guard (Sea-Geun)\" (21)."
+            ],
+            "Rewards": [
+                "80 Experience",
+                "3 Small Medicines"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 1,
+            "Level": 0,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Chun-Sooin\" (26).",
+                "Find \"Chun-SooIn's Stirrup\", which is dropped by \"Demon Plunderer\".",
+                "Talk to \"Chun-Sooin\" (26) again."
+            ],
+            "Rewards": [
+                "100 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 2,
+            "Level": 1,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Royal Inspector\" (56).",
+                "Talk to \"Royal Inspector\" (56) again."
+            ],
+            "Rewards": [
+                "10 Speed-up medicine",
+                "20 Teleports for Narootuh"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 2,
+            "Level": 0,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Boatman (Gwang-Chun)\" (52).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Nu-Rook\" (6).",
+                "Go back to \"Narootuh\".",
+                "Talk to \"Boatman (Gwang-Chun)\" (52) again."
+            ],
+            "Rewards": [
+                "100 geons",
+                "2 Small Medicines"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 3,
+            "Level": 0,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Chief Guard (Mak-Ansoo)\" (51).",
+                "Find \"Demon's Strategic Map\", which are dropped by \"Demon SpearHead\".",
+                "Talk to \"Chief Guard (Mak-Ansoo)\" (51).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Go back to \"Narootuh\".",
+                "Talk to \"Chief Guard (Mak-Ansoo)\" (51) again."
+            ],
+            "Rewards": [
+                "73 Experience",
+                "200 geons",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 4,
+            "Level": 6,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Farmer (Ji-Hun)\" (24).",
+                "Talk to \"Chief Guard (Joo-Jimin)\" (35).",
+                "Find 10 \"Demon's Bow\", which are dropped by \"Demon Escort Archers\".",
+                "Talk to \"Chief Guard (Joo-Jimin)\" (35) again.",
+                "Talk to \"Farmer (Ji-Hun)\" (24) again."
+            ],
+            "Rewards": [
+                "542 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 5,
+            "Level": 8,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Farmer (Nu-Woong)\" (17).",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4).",
+                "Find 10 \"Suicide Bomber's Oil\", which are dropped by \"Suicide Bomber\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4) again.",
+                "Go back to \"Jook-Suh Cargo Station\".",
+                "Talk to \"Farmer (Nu-Woong)\" (17) again."
+            ],
+            "Rewards": [
+                "1.184 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 6,
+            "Level": 10,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Farmer (Ha-Jik)\" (23).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Farmer (Nu-Woong)\" (17).",
+                "Go back to \"Narootuh\".",
+                "Talk to \"Farmer (Ha-Jik)\" (23) again.",
+                "Talk to \"Boatman (Gwang-Chun)\" (52).",
+                "Find 15 \"Big Handed Inhabitant's Tooth\", which are dropped by \"Big Handed Inhabitants\".",
+                "Talk to \"Boatman (Gwang-Chun)\" (26) again.",
+                "Find 2 \"Straw Rice\", which are dropped by \"Demon Carcass Scavenger\".",
+                "Talk to \"Farmer (Ha-Jik)\" (23) again."
+            ],
+            "Rewards": [
+                "2.436 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 3,
+            "Level": 10,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"[Sae-Ryu]\" (27).",
+                "Find 30 \"Escort Soldier's Head\", which are dropped by \"Demon Escort Archer\" or \"Demon Escort Soldier\".",
+                "Talk to \"[Sae-Ryu]\" (55) again.",
+                "Again talk to \"[Sae-Ryu]\" (55).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General [In-Pill]\" (18).",
+                "Find \"Big Handed Inhabitant's Head\", which is dropped by \"Big Handed\".",
+                "Talk to \"General [In-Pill]\" (18) again.",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"[Sae-Ryu]\" (55).",
+                "Find \"In-Pills Scabbard\", which is dropped by \"Demon Carcass Scavenger\".",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General [In-Pill]\" (18)."
+            ],
+            "Rewards": [
+                "662 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 4,
+            "Level": 10,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Royal Inspector\" (56).",
+                "Kill 20 \"Demon Carcass Scavenger\".",
+                "Talk to \"Royal Inspector\" (56) again."
+            ],
+            "Rewards": [
+                "~8.000 Experience",
+                "g21 Weapon"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 5,
+            "Level": 10,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"HyungJoo-SeungGong\" (1).",
+                "Find 40 \"Big Handed Warrior's Head\", which are dropped by \"Big Handed Blue Warrior\" or \"Big Handed Red Warrior\".",
+                "Talk to \"HyungJoo-SeungGong\" (1) again."
+            ],
+            "Rewards": [
+                "1.782 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 7,
+            "Level": 11,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Guard (Won-Jung)\" (1).",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Woman (Yae-Jin)\" (6).",
+                "Find 10 \"Milk Wetch\", which are dropped by \"Big Handed Slaves\".",
+                "Find 10 \"White Peony\", which are dropped by \"Big Handed Slaves\".",
+                "Pick 12 more of each because you will need them at Quest 9",
+                "Talk to \"Woman (Yae-Jin)\" (6) again.",
+                "Pojdi v \"Jook-Suh Cargo Station\".",
+                "Talk to \"Guard (Won-Jung)\" (1) again."
+            ],
+            "Rewards": [
+                "3.576 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 8,
+            "Level": 12,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Find 25 \"Demon's Carcass\", which are dropped by \"Demon Carcass Scavenger\".",
+                "Talk to \"General (Sae-Won)\" (10) again."
+            ],
+            "Rewards": [
+                "2.910 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 9,
+            "Level": 13,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Chief Guard (Guh-Sosun)\" (5).",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Woman (Yae-Jin)\" (6).",
+                "Find 12 \"Milk Wetch\", which are dropped by \"Big Handed Slaves\".",
+                "Find 12 \"White Peony\", which are dropped by \"Big Handed Slaves\".",
+                "Talk to \"Woman (Yae-Jin)\" (6) again.",
+                "Pojdi v \"Jook-Suh Cargo Station\".",
+                "Talk to \"Chief Guard (Guh-Sosun)\" (5) again."
+            ],
+            "Rewards": [
+                "2.798 Experience",
+                "1.000 geons"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 10,
+            "Level": 14,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Joo-Nong)\" (2).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Woman (Ok-Jin)\" (9).",
+                "Find 20 \"Demon Soldier's Teeth\", which are dropped by \"Demon Soldiers\".",
+                "Talk to \"Woman (Ok-Jin)\" (9) again.",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Joo-Nong)\" (2) again."
+            ],
+            "Rewards": [
+                "4.374 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": "Egg Quest",
+            "Level": 15,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Takes Care of Ancient Animals by [Chang]\" (20).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Find \"Keg of talisman\", which are dropped by \"Naughty Doggebi\".",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Takes Care of Ancient Animals by [Chang]\" (20) again.",
+                "Pick your animal."
+            ],
+            "Rewards": [
+                "Transforming can be done when an egg reaches grade 11"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 11,
+            "Level": 15,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4).",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Farmer (Ha-Jik)\" (11).",
+                "Find 25 \"Rice Cake\", which are dropped by \"Big Handed Blue Warriors\".",
+                "Talk to \"Farmer (Ha-Jik)\" (23) again.",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4) again."
+            ],
+            "Rewards": [
+                "5.125 Experience",
+                "1 Skill Point",
+                "600 geons"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 12,
+            "Level": 16,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Wa-Ryu\" (25).",
+                "Find \"Wa-Ryu's Talisman\", which are dropped by \"Big Handed Red Warriors\".",
+                "Talk to \"General (Sae-Won)\" (10)"
+            ],
+            "Rewards": [
+                "4.624 Experience",
+                "1 Skill Point",
+                "600 geons"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 13,
+            "Level": 17,
+            "Steps": [
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Woman (Yae-Jin)\" (6).",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Joo-Nong)\" (2).",
+                "Find 30 \"Joo-Nong's Gold\", which are dropped by \"Demon Infantry\".",
+                "Talk to \"Miner (Joo-Nong)\" (2) again.",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Woman (Yae-Jin)\" (6) again."
+            ],
+            "Rewards": [
+                "6.060 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 14,
+            "Level": 18,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Guard (Yang-Do)\" (19).",
+                "Find 30 \"Piece of Bamboo Pole\", which are dropped by \"Demon Throwing Soldiers\".",
+                "Talk to \"Guard (Yang-Do)\" (29) again.",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Woman (Ok-Jin)\" (5).",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Guard (Yang-Do)\" (29) again."
+            ],
+            "Rewards": [
+                "6.450 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 15,
+            "Level": 19,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4).",
+                "Talk to \"Miner (Joo-Nong)\" (2).",
+                "Find 30 \"Statue\", which are dropped by \"Wild Demon Soldier\".",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4) again."
+            ],
+            "Rewards": [
+                "7.400 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 16,
+            "Level": 20,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Ja-Gan\" (23).",
+                "Find 30 \"Ja-Gan's Gold\", which are dropped by \"Demon Shock Troopers\".",
+                "Talk to \"Ja-Gan\" (23) again.",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Won-Ga\" (24).",
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Ja-Gan\" (23) again."
+            ],
+            "Rewards": [
+                "8.950 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 6,
+            "Level": 20,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Royal Inspector\" (32).",
+                "Kill 15 \"Wild Demon Soldier\"",
+                "Kill 15 \"Demon Shock Troopers\"",
+                "Talk to \"Royal Inspector\" (32) again."
+            ],
+            "Rewards": [
+                "~28.000 Experience",
+                "g25 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 17,
+            "Level": 21,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Find 35 \"Red Flag\", which are dropped by \"Demon Flag Bearer\".",
+                "Talk to \"General (Sae-Won)\" (10) again."
+            ],
+            "Rewards": [
+                "10.985 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 18,
+            "Level": 23,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Find 35 \"Demon Water Dragon Head\", which are dropped by \"Demon Water Dragons\".",
+                "Talk to \"General (Sae-Won)\" (10) again."
+            ],
+            "Rewards": [
+                "21.610 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 19,
+            "Level": 25,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Find 40 \"Demon's Drum\", which are dropped by \"Demon Band\".",
+                "Talk to \"General (Sae-Won)\" (10) again."
+            ],
+            "Rewards": [
+                "19.440 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 7,
+            "Level": 25,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Royal Inspector\" (32).",
+                "Kill 40 \"Demon Band\".",
+                "Talk to \"Royal Inspector\" (32) again."
+            ],
+            "Rewards": [
+                "~80.000 Experience",
+                "g33 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 20,
+            "Level": 26,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Chief-Guard (Guh-Sosun)\" (5).",
+                "Find 40 \"Demon's Armor\", which are dropped by \"Demon Armored Knight\".",
+                "Talk to \"Chief-Guard (Guh-Sosun)\" (5) again."
+            ],
+            "Rewards": [
+                "23.056 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 21,
+            "Level": 27,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Guard (Won-Jung)\" (1).",
+                "Find 40 \"Bloodstained Clothes\", which are dropped by \"Hungry Demon Water Dragon\".",
+                "Talk to \"Guard (Won-Jung)\" (1) again."
+            ],
+            "Rewards": [
+                "24.298 Experience",
+                "1 Skill Point",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 22,
+            "Level": 28,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"Chief-Guard (Guh-Sosun)\" (5).",
+                "Find 40 \"Demon Water Dragon Skin\", which is dropped by \"Demon Water Dragon Predator\".",
+                "Talk to \"Chief-Guard (Guh-Sosun)\" (5) again."
+            ],
+            "Rewards": [
+                "28.207 Experience",
+                "1 Skill Point",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 23,
+            "Level": 29,
+            "Steps": [
+                "Go to the city \"Jook-Suh Cargo Station\".",
+                "Talk to \"General (Sae-Won)\" (10).",
+                "Find 40 \"Demon Mad Knight Head\", which are dropped by \"Demon Mad Knight\".",
+                "Talk to \"General (Sae-Won)\" (10) again."
+            ],
+            "Rewards": [
+                "28.510 Experience",
+                "1 Skill Point",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 24,
+            "Level": 30,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mother of Moon-Hee\" (51).",
+                "Talk to \"Ghost of [Moon-Hee]\"  [out of town].",
+                "Find \"Moon-Hee's Doll\", which is dropped by \"Castoff Baby Ghost\".",
+                "Talk to \"Ghost of [Moon-Hee]\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~30.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": "Lvl 30 Job Change",
+            "Level": 30,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"HyungJoo-SeungGong\" (1).",
+                "1st try to drop \"Demon Commander's Head\", which is dropped by \"Demon Commander\", so you don't have to walk twice.",
+                "Talk to \"Master [Jin-Pyung]\" (28).",
+                "Find \"Demon Commander's Head\", which is dropped by \"Demon Commander\".",
+                "Talk again to \"Master [Jin-Pyung]\" (28)."
+            ],
+            "Rewards": [
+                "(1. Job-Change)",
+                "10.000 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 9,
+            "Level": 30,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Hyun-Choong\" (59).",
+                "Talk to \"Jin-Haeryang\" (16).",
+                "Find 100 \"Sealed Talisman with Spirits\", which are dropped by all Ghosts.",
+                "Talk to \"Jin-Haeryang\" (16) again.",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Talk to \"Farmer who lost his Farmland\" (23).",
+                "Talk to \"Parents who lost their Son\" (6).",
+                "Talk to \"Smith who lost his family\" (5).",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Find one head of each Devil:",
+                "Find 1 \"Devil Soldier's Head\", which are dropped by \"Devil Soldier\"",
+                "Find 1 \"Devil Soldier Twin Blades' Head\", which are dropped by \"Devil Soldier\"",
+                "Find 1 \"Devil Soldier Bow's Head\", which are dropped by \"Devil Soldier Bow\"",
+                "Find 1 \"Devil Soldier Sword's Head\", which are dropped by \"Devil Soldier Sword\"",
+                "Find 1 \"Devil Soldier Spear's Head\", which are dropped by \"Devil Soldier Spear\"",
+                "Find 1 \"Devil Soldier Sub-boss' Head\", which are dropped by \"Devil Soldier Sub-boss\"",
+                "Find 1 \"1st Devil Monster Head\", which are dropped by \"1st Devil Monster\"",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20) again (two times)."
+            ],
+            "Rewards": [
+                "Aprentice Trinket",
+                "~24.000 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 10,
+            "Level": 30,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Royal Inspector\" (32).",
+                "Kill 40 \"Demon Mad Knight\".",
+                "Talk to \"Royal Inspector\" (32) again."
+            ],
+            "Rewards": [
+                "~200.110 Experience",
+                "g37 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 25,
+            "Level": 31,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Fort Guard (Heung-Pae)\" (49).",
+                "Find \"Wolf Tooth Necklace\", which is dropped by \"Ghost Of Young Man\".",
+                "Talk to \"Fort Guard (Heung-Pae)\" (49) again."
+            ],
+            "Rewards": [
+                "~35.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 26,
+            "Level": 32,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Chief Guard (Duk-Yoon)\" (60).",
+                "Find 10 \"Ghost Bead\", which are dropped by \"Ghost Of Young Woman\".",
+                "Talk to \"Chief Guard (Duk-Yoon)\" (60) again."
+            ],
+            "Rewards": [
+                "~42.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 27,
+            "Level": 33,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Guard (Yang-Do)\" (29).",
+                "Find \"Demon Troops Confidential Document\", which is dropped by \"Demon Commander\".",
+                "Talk to \"Guard (Yang-Do)\" (29) again."
+            ],
+            "Rewards": [
+                "47.266 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 11,
+            "Level": 33,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Royal Inspector\" (32).",
+                "Kill 10 \"Demon Commander\".",
+                "Talk to \"Royal Inspector\" (32) again."
+            ],
+            "Rewards": [
+                "~308.804 Experience",
+                "g40 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 28,
+            "Level": 34,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Fort Guard (Soo-Go)\" (52).",
+                "Find 10 \"Blacksmith Bead\", which are dropped by \"Ghost Of Blacksmith\".",
+                "Talk to \"Fort Guard (Soo-Go)\" (52) again."
+            ],
+            "Rewards": [
+                "~62.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 29,
+            "Level": 35,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Fort Guard (Dan-Bok)\" (45).",
+                "Find 10 \"Ghost Guard Bead\", which are dropped by \"Ghost Guard\".",
+                "Talk to \"Fort Guard (Dan-Bok)\" (45) again."
+            ],
+            "Rewards": [
+                "~76.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 30,
+            "Level": 36,
+            "Steps": [
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4).",
+                "Find 1 \"Demon Water Dragon Commanders Skin\", which is dropped by \"Demon Dragon Commander\".",
+                "Talk to \"Miner (Gwee-Sik)\" (4) again."
+            ],
+            "Rewards": [
+                "80.002 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 12,
+            "Level": 36,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 40 \"Fellow traveller to the other world\" and Kill 40 \"Sealed ghost troop\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~612.671 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 31,
+            "Level": 37,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Fort Guard (Ga-Gi)\" (1).",
+                "Find 10 \"Fellow Traveller Bead\", which are dropped by \"Fellow traveller to the other world\".",
+                "Talk to \"Fort Guard (Ga-Gi)\" (1) again."
+            ],
+            "Rewards": [
+                "~100.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 32,
+            "Level": 38,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Fort Guard (Soo-Sung)\" (10).",
+                "Find 10 \"Sealed Troop Bead\", which are dropped by \"Sealed ghost troop\".",
+                "Talk to \"Fort Guard (Soo-Sung)\" (10) again."
+            ],
+            "Rewards": [
+                "156.300 Experience",
+                "1 Skill Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 33,
+            "Level": 39,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier from Troop of (Yoo-Sang)\" (19).",
+                "Find 10 \"Devil Soldier's Bow\", which are dropped by \"Devil Soldier With Bow\".",
+                "Talk to \"Soldier from Troop of (Yoo-Sang)\" (19) again."
+            ],
+            "Rewards": [
+                "100.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 13,
+            "Level": 39,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 40 \"Devil Soldier With Bow\" and Kill 40 \"Devil Soldier With Sword\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~1.031.835 Experience",
+                "g45 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 34,
+            "Level": 40,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier from Troop of Jae-Ga (Lim-Gang)\" (2).",
+                "Find 10 \"Devil Soldier's Spear\", which are dropped by \"Devil Soldier's Spear\".",
+                "Talk to \"Soldier from Troop of Jae-Ga (Lim-Gang)\" (2) again."
+            ],
+            "Rewards": [
+                "~110.000 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 14,
+            "Level": 40,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Find \"Green Crystal\", which is dropped by \"Devil Troops of Absorbing Green\" (you will find it on the way to d3 and around d1 gates).",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20) again."
+            ],
+            "Rewards": [
+                "83.680 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 35,
+            "Level": 41,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"To-Woo\" (50).",
+                "Talk to \"Hyun-Woong\"  [out of town].",
+                "Find \"Head of Huhn-Woong's Enemy\", which is dropped by \"Enemy Of Hyun-Woong\" [out of town].",
+                "Talk to \"Hyun-Woong\"  [out of town].",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"To-Woo\" (50) again."
+            ],
+            "Rewards": [
+                "~116.825 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 36,
+            "Level": 41,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mask of Ghost Hunter (Woo-Joong)\" (11).",
+                "Find 100 \"Devil Troop of Pain's Mask\", which are dropped by \"Devil Troop Of Pain\".",
+                "Talk to \"Mask of Ghost Hunter (Woo-Joong)\" (11) again."
+            ],
+            "Rewards": [
+                "~194.790 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 37,
+            "Level": 42,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Red Flag Leader (Gee-Gung)\" (44).",
+                "Go to the city \"Narootuh\".",
+                "Talk to \"Ha-Woogo\" (17).",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Ma-Yong\" (23).",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Red Flag Leader (Gee-Gung)\" (44) again.",
+                "Find \"Head of Heuk-Yong\", which is dropped by \"Heuk-Yong\"  [out of town].",
+                "Find \"Head of Dae-Ill\", which is dropped by \"Dae-Ill\"  [out of town].",
+                "Find \"Head of Yoo\", which is dropped by \"Yoo\" [out of town].",
+                "Find \"Head of Ma-Gwang\", which is dropped by \"Ma-Gwang\"  [out of town].",
+                "Find \"Head of Goon-Sangji\", which is dropped by \"Goon-Sang-Ji\"  [out of town].",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Red Flag Leader (Gee-Gung)\" (44) again."
+            ],
+            "Rewards": [
+                "~140.708 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 38,
+            "Level": 42,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mask of Ghost Hunter (Jwa-II)\" (12).",
+                "Find 100 \"Devil Troop of Greed's Mask\", which are dropped by \"Devil Troop Of Greed\".",
+                "Talk to \"Mask of Ghost Hunter (Jwa-II)\" (12) again."
+            ],
+            "Rewards": [
+                "~234.514 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 15,
+            "Level": 42,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 70 \"Devil Soldier's Spear\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~1.846.799 Experience",
+                "Bound Dragon Spirit Scroll"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 39,
+            "Level": 43,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"[Seoung-Gill]\"  [out of town].",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"[Ma-Gill]\" (64).",
+                "Talk to \"[Seoung-Gill]\"  [out of town] again.",
+                "Find \"Secret Letter\" and \"Head Skin of Yong-Chun\", which is dropped by \"Assassin who killed Yong-Chun\"  [out of town].",
+                "Talk to \"[Seoung-Gill]\"  [out of town] again.",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"[Ma-Gill]\" (64) again.",
+                "Talk to \"[Seoung-Gill]\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~169.395 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 40,
+            "Level": 43,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mask of Ghost Hunter (Geun-Pyung)\" (13).",
+                "Find 100 \"Devil Troop of Jealousy's Mask\", which are dropped by \"Devil Troop Of Jealousy\".",
+                "Talk to \"Mask of Ghost Hunter (Geun-Pyung)\" (13) again."
+            ],
+            "Rewards": [
+                "~282.326 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 41,
+            "Level": 44,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"[Hak-Goo]\"  [out of town].",
+                "Find \"Rope\", which is dropped by \"Devil Troop Of Hatred\".",
+                "Talk to \"[Hak-Goo]\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~203.850 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 42,
+            "Level": 44,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mask of Ghost Hunter (Dan-Joong)\" (14).",
+                "Find 100 \"Devil Troop of Hatred's Mask\", which are dropped by \"Devil Troop Of Hatred\".",
+                "Talk to \"Mask of Ghost Hunter (Dan-Joong)\" (14) again."
+            ],
+            "Rewards": [
+                "~339.750 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 16,
+            "Level": 44,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\" (marked on map out of town).",
+                "Talk to \"Doggebi Master\"  [out of town].",
+                "Find 1 spirit of each Doggebi:",
+                "\"Spirit of Doggebi of Monster Face\"",
+                "\"Spirit of Doggebi with a Gong\"",
+                "\"Spirit of Drunken Doggebi\"",
+                "\"Spirit of Doggebi with a Mask of Black Crow\"",
+                "\"Spirit of Doggebi with a Mask of Black Panther\"",
+                "\"Spirit of Giant Doggebi\"",
+                "\"Spirit of Guardian of Doggebi\"",
+                "Talk to \"Doggebi Master\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~169.875 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 17,
+            "Level": 44,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\".",
+                "Talk to \"Doggebi Master\"  [out of town].",
+                "Find \"Chief of Angry Doggebi Troop's Dead Body\", which is dropped by \"Chief of Angry Doggebi Troop\"  [out of town].",
+                "Talk to \"Doggebi Master\"  [out of town]."
+            ],
+            "Rewards": [
+                "1.358.165 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 43,
+            "Level": 45,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\"  [out of town].",
+                "Find \"Defective Doggebi's Doll\", which is dropped by \"Devil Troop Of Anger\".",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\"  [out of town] again.",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Doll Craftsman [Gill-Jun]\" (41).",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~245.225 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 44,
+            "Level": 45,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Mask of Ghost Hunter (Choi Choong)\" (15).",
+                "Find 100 \"Devil Troop of Madness' Mask\", which are dropped by \"Devil Troop Of Madness\".",
+                "Talk to \"Mask of Ghost Hunter (Choi Choong)\" (15) again."
+            ],
+            "Rewards": [
+                "~408.708 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 18,
+            "Level": 45,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 40 \"Devil Troop Of Madness\" and Kill 40 \"Devil Troop Of Anger\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~3.065.315 Experience",
+                "g48 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 45,
+            "Level": 46,
+            "Steps": [
+                "Talk to \"Limper\"  [out of town].",
+                "Find \"Doggebi Of Monster Face's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi Of Monster Face\".",
+                "Talk to \"Limper\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~491.510 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 46,
+            "Level": 47,
+            "Steps": [
+                "Talk to \"Blind Man\"  [out of town].",
+                "Find \"Doggebi with Gong's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Gong\".",
+                "Talk to \"Blind Man\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~590.926 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 47,
+            "Level": 48,
+            "Steps": [
+                "Talk to \"Coward\"  [out of town].",
+                "Find \"Drunken Doggebi's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Drunken Doggebi\".",
+                "Talk to \"Coward\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~710.280 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 19,
+            "Level": 48,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 10 \"1st Devil Monster\" and Kill 10 \"2nd Devil Monster\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~5.060.751 Experience",
+                "g50 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 48,
+            "Level": 49,
+            "Steps": [
+                "Talk to \"Hunchback\"  [out of town].",
+                "Find \"Doggebi with Mask of Black Crow's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Mask of Black Crow\".",
+                "Talk to \"Hunchback\"  [out of town] again."
+            ],
+            "Rewards": [
+                "~853.562 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 49,
+            "Level": 50,
+            "Steps": [
+                "Talk to \"Deaf Man\" [out of town].",
+                "Find \"Doggebi with Mask of Black Panther's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Mask of Black Panther\".",
+                "Talk to \"Deaf Man\" [out of town] again."
+            ],
+            "Rewards": [
+                "~1.025.563 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": "Lvl 50 Job Change",
+            "Level": 50,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Pick your job. Don't forget that this choice is permanent, that is why you have to confirm twice.",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
+            ],
+            "Rewards": [
+                "Level 50 Job Change"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 21,
+            "Level": 50,
+            "Steps": [
+                "Go outside the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town].",
+                "Kill 50 \"Giant Doggebi\".",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town]."
+            ],
+            "Rewards": [
+                "500.000 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 22,
+            "Level": 50,
+            "Steps": [
+                "Go outside the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town].",
+                "Kill 50 \"Guardian of Doggebi\".",
+                "Kill \"Angry Doggebi of Monster Face\".",
+                "Get drop \"Captured Doggebi\" from \"Angry Doggebi of Monster Face\".",
+                "Angry Doggebi of Monster Face is spawned every 2 Hours since last kill near D1 and hollow tree (you only need to kill him once to count kill and get drop).",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
+            ],
+            "Rewards": [
+                "500.000 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 50,
+            "Level": 51,
+            "Steps": [
+                "Talk to \"One-armed Man\" [out of town].",
+                "Find \"Giant Doggebi's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Giant Doggebis\".",
+                "Talk to \"One-armed Man\" [out of town] again."
+            ],
+            "Rewards": [
+                "~1.232.024 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 23,
+            "Level": 52,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\" (marked on map out of town).",
+                "Talk to \"Doggebi Master\" [out of town].",
+                "Find \"Spirit of Doggebi of Monster Face\"",
+                "Find \"Spirit of Doggebi with a Gong\"",
+                "Find \"Spirit of Drunken Doggebi\"",
+                "Talk to \"Doggebi Master\"  [out of town] again."
+            ],
+            "Rewards": [
+                "681.882 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 24,
+            "Level": 52,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\" (marked on map out of town).",
+                "Talk to \"Doggebi Master\"  [out of town].",
+                "Find \"Spirit of Doggebi with a Mask of Black Crow\"",
+                "Find \"Spirit of Doggebi with a Mask of Black Panther\"",
+                "Talk to \"Doggebi Master\"  [out of town] again."
+            ],
+            "Rewards": [
+                "681.882 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 25,
+            "Level": 52,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\" (marked on map out of town).",
+                "Talk to \"Doggebi Master\"  [out of town].",
+                "Find \"Spirit of Giant Doggebi\"",
+                "Find \"Spirit of Guardian of Doggebi\"",
+                "Talk to \"Doggebi Master\"  [out of town] again."
+            ],
+            "Rewards": [
+                "681.882 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 26,
+            "Level": 52,
+            "Steps": [
+                "Go to the city \"Forsaken Fort\" (marked on map out of town).",
+                "Kill 10 \"Doggebi of Monster Face\", Kill 10 \"Doggebi with a Gong\", Kill 10 \"Drunken Doggebi\", Kill 10 \"Doggebi with a Mask of Black Crow\", Kill 10 \"Doggebi with a Mask of Black Panther\", Kill 10 \"Giant Doggebi\", Kill 10 \"Guardian of Doggebi\" and Kill 1 \"Chief of Angry Doggebi Troop\".",
+                "Talk to \"Doggebi Master\"  [out of town] again."
+            ],
+            "Rewards": [
+                "681.882 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 27,
+            "Level": 51,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 50 \"Doggebi with Mask of Black Crow\" and Kill 50 \"Doggebi with Mask of Black Panther\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~11.088.219 Experience",
+                "g55 Gloves"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 51,
+            "Level": 52,
+            "Steps": [
+                "Talk to \"Manager\"[out of town].",
+                "Find \"Guardian of Doggebi's Stone\" and 5 \"Water Dragon Blood\", which are dropped by \"Guardian of Doggebi\".",
+                "Talk to \"Manager\" [out of town] again."
+            ],
+            "Rewards": [
+                "~1.479.838 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 52,
+            "Level": 52,
+            "Steps": [
+                "Scout surrounding the Tower of Doggebi (1)",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 40 \"Doggebi with Gong\", Kill 30 \"Drunken Doggebi\" and Kill 30 \"Doggebi with Mask of Black Crow\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~2.206.271 Experience",
+                "g55 boots",
+                "12 Hour 30% EXP Stone"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 53,
+            "Level": 53,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Ja-Sang\" (36).",
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Skeleton Warrior's Head\", which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~1.777.279 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 54,
+            "Level": 53,
+            "Steps": [
+                "Scout surrounding the Tower of Doggebi (2)",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 40 \"Drunken Doggebi\", Kill 30 \"Doggebi with Mask of Black Crow\" and Kill 30 \"Doggebi with Mask of Black Panther\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "~2.649.722 Experience",
+                "g55 Helmet/Deco",
+                "12 Hour 30% EXP Stone"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 55,
+            "Level": 54,
+            "Steps": [
+                "Scout surrounding the Tower of Doggebi (3)",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 30 \"Doggebi with Mask of Black Crow\", Kill 30 \"Doggebi with Mask of Black Panther\", Kill 30 \"Giant Doggebis\" and Kill 10 \"Guardian of Doggebi\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "2.760.128 Experience",
+                "g55 Shorts",
+                "12 Hour 30% EXP Stone"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 56,
+            "Level": 54,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Skeleton Warrior's Ribs\", which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~2.134.273 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 28,
+            "Level": 54,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Go to D1 and kill 20 \"Doggebi of Monster Face\", 20 \"Doggebi with a Gong\", 20 \"Drunken Doggebi\", 20 \"Doggebi with a Mask of Black Crow\" and 20 \"Doggebi with a Mask of Black Panther\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
+            ],
+            "Rewards": [
+                "3.013.282 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 29,
+            "Level": 54,
+            "Steps": [
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Royal Inspector\" (68).",
+                "Kill 50 \"Giant Doggebis\" and Kill 50 \"Guardian of Doggebi\".",
+                "Talk to \"Royal Inspector\" (68) again."
+            ],
+            "Rewards": [
+                "18.141.321 Experience",
+                "g55 Chest"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 57,
+            "Level": 55,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Book\", which are dropped by \"Minister of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~2.562.731 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 30,
+            "Level": 55,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Talk to \"Chief Guard\" (2).",
+                "Get 5 \"Speed up Medicine\".",
+                "Talk to \"Chief Guard\" (2)."
+            ],
+            "Rewards": [
+                "3.289.241 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 31,
+            "Level": 55,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Sword)\" and Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Lance)\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
+            ],
+            "Rewards": [
+                "5.289.241 Experience",
+                "10 Talisman of Magic"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 32,
+            "Level": 55,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Kill 100 \"Maid of Honor of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
+            ],
+            "Rewards": [
+                "12.000.000 Experience",
+                "5 Talisman of Defense",
+                "Artisan's Fixing Tool"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 33,
+            "Level": 57,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Kill 100 \"Minister of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
+            ],
+            "Rewards": [
+                "12.975.811 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 58,
+            "Level": 56,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Lute\", which are dropped by \"Maid of Honor of the Royal Tomb\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~3.076.950 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 59,
+            "Level": 57,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Sword\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~3.694.082 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 34,
+            "Level": 57,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Royal Inspector\" (31).",
+                "Kill 60 \"Minister of the Royal Tomb\" and Kill 60 \"Maid of Honor of the Royal Tomb\".",
+                "Talk to \"Royal Inspector\" (31)."
+            ],
+            "Rewards": [
+                "~29.552.626 Experience",
+                "g59 Weapon"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 60,
+            "Level": 58,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Sheild\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~4.434.711 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 35,
+            "Level": 58,
+            "Steps": [
+                "Go to the city \"City of Priest\".",
+                "Talk to \"An-Hyunsoo\" (11).",
+                "Get 5 \"Baked Mackarel in Soy Sauce\" (you can make them in fort with 1 Mackarel fish (4)).",
+                "Talk to \"An-Hyunsoo\" (11)."
+            ],
+            "Rewards": [
+                "10.000.000 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 36,
+            "Level": 58,
+            "Steps": [
+                "Go to the city \"City of Priest\".",
+                "Talk to \"An-Hyunsoo\" (11).",
+                "Kill 60 \"The Royal Tomb Keeper (sword)\" and Kill 60 \"The Royal Tomb Keeper (Shield)\".",
+                "Talk to \"An-Hyunsoo\" (11)."
+            ],
+            "Rewards": [
+                "10.000.000 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 37,
+            "Level": 58,
+            "Steps": [
+                "Go to the city \"City of Priest\".",
+                "Talk to \"An-Hyunsoo\" (11).",
+                "Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\" and Kill 60 \"The Royal Tomb Keeper (Spear)\".",
+                "Talk to \"An-Hyunsoo\" (11)."
+            ],
+            "Rewards": [
+                "20.835.821 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 38,
+            "Level": 58,
+            "Steps": [
+                "Go to the city \"City of Priest\".",
+                "Talk to \"Sur-An\" (9).",
+                "Kill 60 \"The Royal Tomb Keeper (sword)\", Kill 60 \"The Royal Tomb Keeper (Shield)\", Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\" and Kill 60 \"The Royal Tomb Keeper (Spear)\".",
+                "Talk to \"Sur-An\" (9)."
+            ],
+            "Rewards": [
+                "20.000.000 Experience"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 61,
+            "Level": 59,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Spear\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~5.323.540 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 62,
+            "Level": 60,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
+                "Find 5 \"Royal Tomb Keeper's Iron Hammer\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
+            ],
+            "Rewards": [
+                "~6.390.210 Experience",
+                "1 Contribution Point"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 39,
+            "Level": 60,
+            "Steps": [
+                "Go to the city \"Pub of the Giant Bird\".",
+                "Talk to \"Royal Inspector\" (31).",
+                "Kill 20 \"The Royal Tomb Keeper (Sword)\", Kill 40 \"The Royal Tomb Keeper (Shield)\", Kill 40 \"The Royal Tomb Keeper (Iron hammer)\" and Kill 40 \"The Royal Tomb Keeper (Spear)\".",
+                "Talk to \"Royal Inspector\" (31) again."
+            ],
+            "Rewards": [
+                "~47.926.578 Experience"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 40,
+            "Level": 70,
+            "Steps": [
+                "3. Job Change",
+                "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
+                "Go to the city \"City of Priest\".",
+                "Talk to \"Sur-An\" (9).",
+                "Drop 10 Elements of each monster in \"Forrest of Elements\"",
+                "\"element of fire\"",
+                "\"element of water\"",
+                "\"element of wood\"",
+                "\"element of iron\"",
+                "\"element of ground\"",
+                "Elements can be made out of \"Imperfect element of ..\", which are dropped by the same mobs in \"Forrest of Elements\" or in D5.",
+                "When you find 20 imperfects you can carry them to \"Element collection official [Hwa Eun]\" (19), which is in \"City of Priest\".",
+                "This conversion costs you 200k each try and it is not guaranteed that you will get an element. It can fail. The rest percentage of success was 35. But that was raised to a value that I do not know of.",
+                "Now you carry all those converted elements to the altars, which are found on all mayor spots at the \"Forrest of Elements\".",
+                "Talk to \"Sur-An\" (9).",
+                "You have to find some more items, which are dropped by different mobs, or you can get them in \"Picture of hell\"",
+                "\"Monster's Right Arm\", dropped by \"Demon Monster\" in D4 on every floor",
+                "\"Necklace of Evil\", dropped by \"Chief of the Traitor's Hangout, Yoong-Gi\" at \"Highlands of Sky\" (Traitor Hang Out)",
+                "\"Lord's Jaw\", dropped by \"Lord of Shadow Troop\" in D2",
+                "\"Sword of the Chief Defender\", dropped by \"Twisted Demon Defender\" at \"Emok Island\"",
+                "Talk to \"Sur-An\" (9)."
+            ],
+            "Rewards": [
+                "3rd job change with new skills"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": 41,
+            "Level": 70,
+            "Steps": [
+                "Go to the \"Forrest of Elements\".",
+                "Talk to \"Priest Tower [Il Ja]\" (14) [out of town].",
+                "Find \"Souls of Undead\" from higher level spirit monsters or MK monsters in D5.",
+                "\"Essence of earth element\" at Floor 3",
+                "\"Essence of wood element\" at Floor 4",
+                "\"Essence of water element\" at Floor 6",
+                "\"Essence of fire element\" at Floor 8",
+                "\"Essence of iron element\" at Floor 9",
+                "Talk to \"Priest Tower [Il Ja]\" (14) [out of town].",
+                "The Trial of “I’Lryer” - The new world",
+                "Go to D5",
+                "Find 100 \"Essence of undead\", dropped by all mobs in D5.",
+                "Find \"I'Lryer's ring\" in D5, dropped by \"Cheios\" and \"Dunamic\" on F10 or \"Illusion of Dunamic\" and \"Illusion of Cheois\" on F9 (R1 and R2).",
+                "Go to the city \"Geum-Oh Mine\".",
+                "Talk to \"Messenger of Devah [Jin-Heun]\". Thru the left gates down the hill. Keep to the right side and go to the ramp. There is this NPC.",
+                "You get in your \"Task\" inventory \"Moving trinket\" and you can move to VOD with it."
+            ],
+            "Rewards": [
+                "Access to Valley of Devah"
+            ]
+        },
+        {
+            "Type": "QUEST",
+            "QuestId": 63,
+            "Level": 81,
+            "Steps": [
+                "Go to the city \"City of Priest\".",
+                "Talk to \"[Eun-Seon] Master out of office\" (10).",
+                "Click \"[Receive training] Give me training\" and select one of 3 skills (OTP, EVA or DEF).",
+                "Each lvl up, skill lvl increases (up to max skill lvl 20)."
+            ],
+            "Rewards": [
+                "Selected Mystery Skill (added to Common skills as Passive skill)"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": "1st AWAKEN",
+            "Level": 91,
+            "Steps": [
+                "Go to \"Narootuh\" and talk to \"DEAD Hye min\" (between NPC 43 and Refining Deamon Gong).",
+                "Kill 200 \"Twisted Deamon Officer of Attack\" and Kill 200 \"Twisted Imperial Deamon Commander\" (Emok A9).",
+                "Find 20 \"Mysterious Marble\" and 5 \"Piece of Shining Gold\" (dropped by Shadow of D'evah)."
+            ],
+            "Rewards": [
+                "Blue Ball (next to your name)",
+                "Access to 1st Awaken skills (click S and than Awaken tab)"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": "2nd AWAKEN",
+            "Level": 96,
+            "Steps": [
+                "Go to \"Narootuh\" and talk to \"DEAD Hye min\" (between NPC 43 and Refining Deamon Gong).",
+                "Find 2 \"Gold Ingot\" (you can create them with 200 Gold Coins [at Gold Master](50), which are dropped by Shadow of D'evah).",
+                "Find 60 \"Mysterious Marble\" and 15 \"Piece of Shining Gold\" (dropped by Shadow of D'evah)."
+            ],
+            "Rewards": [
+                "Pink Ball (next to your name)",
+                "Access to 2nd Awaken skills (click S and than Awaken tab)"
+            ]
+        },
+        {
+            "Type": "EVENT",
+            "QuestId": "3rd AWAKEN",
+            "Level": 101,
+            "Steps": [
+                "Go to \"Narootuh\" and talk to \"DEAD Hye min\" (between NPC 43 and Refining Deamon Gong).",
+                "Find \"Procssing Awaken Lv3\" (which is dropped by D'evah Boss).",
+                "Find 1 \"Gold Ingot\" (you can create it with 100 Gold Coins [at Gold Master](50), which are dropped by Shadow of D'evah).",
+                "Find 120 \"Mysterious Marble\" and 30 \"Piece of Shining Gold\" (dropped by Shadow of D'evah)."
+            ],
+            "Rewards": [
+                "Yellow Ball (next to your name)",
+                "Access to 3rd Awaken skills (click S and than Awaken tab)"
+            ]
+        }
+
+    ]
+}
