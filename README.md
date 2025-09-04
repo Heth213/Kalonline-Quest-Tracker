@@ -60,31 +60,6 @@ A modern, dark-themed quest tracker application for KalOnline with comprehensive
 - **Level Requirements**: Quest level requirements clearly displayed
 - **Quest Types**: Visual distinction between regular quests and events
 
-## File Structure
-```
-Kal Quests Tracker/
-├── QuestsData.json          # Quest database (included)
-├── Profiles/                # Character profiles (auto-created)
-│   └── [CharacterName].json # Individual character progress files
-├── Models/                  # Data models
-├── Utils/                   # JSON parsing utilities
-└── bin/Debug/              # Compiled application
-```
-
-## Technical Features
-- **Custom JSON Parser**: No external dependencies required
-- **Regex-based Text Parsing**: Intelligent color coding of quest text
-- **Owner-drawn ListBox**: Custom rendering for quest completion status
-- **Automatic Sorting**: Quests organized by level and type
-- **Error Handling**: Robust error handling for file operations
-
-## Tips
-- Double-click quests to quickly mark them as complete/incomplete
-- Use the quest type filter to focus on specific quest types
-- Character profiles are automatically saved when you close the application
-- The quest details panel shows color-coded information for easy reading
-- Completed quests can be hidden using the "Show Completed" checkbox
-
 
 ### Building the Application
 
@@ -93,10 +68,6 @@ Kal Quests Tracker/
    - Right-click on the project in Solution Explorer
    - Select "Manage NuGet Packages"
    - Search for "Newtonsoft.Json" and install version 13.0.3
-
-2. **Build the Project**:
-   - Press `Ctrl+Shift+B` to build the solution
-   - Or go to Build → Build Solution
 
 3. **Run the Application**:
    - Press `F5` to run with debugging
