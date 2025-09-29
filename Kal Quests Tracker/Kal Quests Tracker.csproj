@@ -7,7 +7,7 @@
     <ProjectGuid>{5203E7D2-E485-4594-8969-CAFAC6B2EEF7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Kal_Quests_Tracker</RootNamespace>
-    <AssemblyName>Kal Quests Tracker v0.2</AssemblyName>
+    <AssemblyName>Kal Quests Tracker v0.5</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

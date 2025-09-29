@@ -7,7 +7,7 @@
             "Steps": [
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Chief Guard (Sea-Geun)\" (21).",
-                "Find \"Shee-Geun's Message\", which are dropped by \"Lower Class Demons\".",
+                "Find \"Shee-Geun's Message\"[Image:1.png] which are dropped by \"Lower Class Demons\"",
                 "Talk to \"Chief Guard (Sea-Geun)\" (21)."
             ],
             "Rewards": [
@@ -22,7 +22,7 @@
             "Steps": [
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Chun-Sooin\" (26).",
-                "Find \"Chun-SooIn's Stirrup\", which is dropped by \"Demon Plunderer\".",
+                "Find  \"Chun-SooIn's Stirrup\"[Image:2.png] which is dropped by \"Demon Plunderer\"[Image:ms_m1_04.jpg]",
                 "Talk to \"Chun-Sooin\" (26) again."
             ],
             "Rewards": [
@@ -67,7 +67,7 @@
             "Steps": [
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Chief Guard (Mak-Ansoo)\" (51).",
-                "Find \"Demon's Strategic Map\", which are dropped by \"Demon SpearHead\".",
+                "Find \"Demon's Strategic Map\"[Image:3.png] which are dropped by \"Demon SpearHead\"[Image:ms_m1_04.jpg]",
                 "Talk to \"Chief Guard (Mak-Ansoo)\" (51).",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
@@ -88,7 +88,7 @@
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Farmer (Ji-Hun)\" (24).",
                 "Talk to \"Chief Guard (Joo-Jimin)\" (35).",
-                "Find 10 \"Demon's Bow\", which are dropped by \"Demon Escort Archers\".",
+                "Find 10 \"Demon's Bow\"[Image:4.png] which are dropped by \"Demon Escort Archers\"[Image:ms_m1_07.jpg]",
                 "Talk to \"Chief Guard (Joo-Jimin)\" (35) again.",
                 "Talk to \"Farmer (Ji-Hun)\" (24) again."
             ],
@@ -106,7 +106,7 @@
                 "Talk to \"Farmer (Nu-Woong)\" (17).",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Gwee-Sik)\" (4).",
-                "Find 10 \"Suicide Bomber's Oil\", which are dropped by \"Suicide Bomber\".",
+                "Find 10 \"Suicide Bomber's Oil\"[Image:5.png] which are dropped by \"Suicide Bomber\"[Image:ms_m1_08.jpg]",
                 "Talk to \"Miner (Gwee-Sik)\" (4) again.",
                 "Go back to \"Jook-Suh Cargo Station\".",
                 "Talk to \"Farmer (Nu-Woong)\" (17) again."
@@ -128,9 +128,9 @@
                 "Go back to \"Narootuh\".",
                 "Talk to \"Farmer (Ha-Jik)\" (23) again.",
                 "Talk to \"Boatman (Gwang-Chun)\" (52).",
-                "Find 15 \"Big Handed Inhabitant's Tooth\", which are dropped by \"Big Handed Inhabitants\".",
+                "Find 15 \"Big Handed Inhabitant's Tooth\"[Image:5.png] which are dropped by \"Big Handed Inhabitants\"[Image:ms_m2_01.jpg]",
                 "Talk to \"Boatman (Gwang-Chun)\" (26) again.",
-                "Find 2 \"Straw Rice\", which are dropped by \"Demon Carcass Scavenger\".",
+                "Find 2 \"Straw Rice\"[Image:6.png] which are dropped by \"Demon Carcass Scavenger\"[Image:ms_m3_01.jpg]",
                 "Talk to \"Farmer (Ha-Jik)\" (23) again."
             ],
             "Rewards": [
@@ -145,16 +145,16 @@
             "Steps": [
                 "Go to the city \"Narootuh\".",
                 "Talk to \"[Sae-Ryu]\" (27).",
-                "Find 30 \"Escort Soldier's Head\", which are dropped by \"Demon Escort Archer\" or \"Demon Escort Soldier\".",
+                "Find 30 \"Escort Soldier's Head\"[Image:ev2.png] which are dropped by \"Demon Escort Archer\"[Image:ms_m1_07.jpg] or by \"Demon Escort Soldier\"[Image:ms_m1_06.jpg]",
                 "Talk to \"[Sae-Ryu]\" (55) again.",
                 "Again talk to \"[Sae-Ryu]\" (55).",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General [In-Pill]\" (18).",
-                "Find \"Big Handed Inhabitant's Head\", which is dropped by \"Big Handed\".",
+                "Find \"Big Handed Inhabitant's Head\"[Image:ev2-2.png] which is dropped by \"Big Handed\"[Image:ms_m2_01.jpg]",
                 "Talk to \"General [In-Pill]\" (18) again.",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"[Sae-Ryu]\" (55).",
-                "Find \"In-Pills Scabbard\", which is dropped by \"Demon Carcass Scavenger\".",
+                "Find \"In-Pills Scabbard\"[Image:ev2-3.png] which is dropped by \"Demon Carcass Scavenger\"[Image:ms_m3_01.jpg]",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General [In-Pill]\" (18)."
             ],
@@ -169,7 +169,7 @@
             "Steps": [
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Royal Inspector\" (56).",
-                "Kill 20 \"Demon Carcass Scavenger\".",
+                "Kill 20 \"Demon Carcass Scavenger\"[Image:ms_m3_01.jpg]",
                 "Talk to \"Royal Inspector\" (56) again."
             ],
             "Rewards": [
@@ -184,7 +184,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"HyungJoo-SeungGong\" (1).",
-                "Find 40 \"Big Handed Warrior's Head\", which are dropped by \"Big Handed Blue Warrior\" or \"Big Handed Red Warrior\".",
+                "Find 40 \"Big Handed Warrior's Head\"[Image:ev2-2.png] which are dropped by \"Big Handed Blue Warrior\"[Image:ms_m2_04.jpg] or by \"Big Handed Red Warrior\"[Image:ms_m2_03.jpg]",
                 "Talk to \"HyungJoo-SeungGong\" (1) again."
             ],
             "Rewards": [
@@ -200,8 +200,8 @@
                 "Talk to \"Guard (Won-Jung)\" (1).",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Woman (Yae-Jin)\" (6).",
-                "Find 10 \"Milk Wetch\", which are dropped by \"Big Handed Slaves\".",
-                "Find 10 \"White Peony\", which are dropped by \"Big Handed Slaves\".",
+                "Find 10 \"Milk Wetch\"[Image:7.png] which are dropped by \"Big Handed Slaves\"[Image:ms_m2_02.jpg]",
+                "Find 10 \"White Peony\"[Image:70.png] which are dropped by \"Big Handed Slaves\"[Image:ms_m2_02.jpg]",
                 "Pick 12 more of each because you will need them at Quest 9",
                 "Talk to \"Woman (Yae-Jin)\" (6) again.",
                 "Go to the city \"Jook-Suh Cargo Station\".",
@@ -219,7 +219,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
-                "Find 25 \"Demon's Carcass\", which are dropped by \"Demon Carcass Scavenger\".",
+                "Find 25 \"Demon's Carcass\"[Image:8.png] which are dropped by \"Demon Carcass Scavenger\"[Image:ms_m3_01.jpg]",
                 "Talk to \"General (Sae-Won)\" (10) again."
             ],
             "Rewards": [
@@ -236,8 +236,8 @@
                 "Talk to \"Chief Guard (Guh-Sosun)\" (5).",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Woman (Yae-Jin)\" (6).",
-                "Find 12 \"Milk Wetch\", which are dropped by \"Big Handed Slaves\".",
-                "Find 12 \"White Peony\", which are dropped by \"Big Handed Slaves\".",
+                "Find 12 \"Milk Wetch\"[Image:7.png] which are dropped by \"Big Handed Slaves\"[Image:ms_m2_02.jpg]",
+                "Find 12 \"White Peony\"[Image:70.png] which are dropped by \"Big Handed Slaves\"[Image:ms_m2_02.jpg]",
                 "Talk to \"Woman (Yae-Jin)\" (6) again.",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Chief Guard (Guh-Sosun)\" (5) again."
@@ -256,7 +256,7 @@
                 "Talk to \"Miner (Joo-Nong)\" (2).",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Woman (Ok-Jin)\" (9).",
-                "Find 20 \"Demon Soldier's Teeth\", which are dropped by \"Demon Soldiers\".",
+                "Find 20 \"Demon Soldier's Teeth\"[Image:10.png] which are dropped by \"Demon Soldiers\"[Image:ms_m3_02.jpg]",
                 "Talk to \"Woman (Ok-Jin)\" (9) again.",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Joo-Nong)\" (2) again."
@@ -274,7 +274,7 @@
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Takes Care of Ancient Animals by [Chang]\" (20).",
                 "Go to the city \"Jook-Suh Cargo Station\".",
-                "Find \"Keg of talisman\", which are dropped by \"Naughty Doggebi\".",
+                "Find \"Keg of talisman\"[Image:egg.png] which are dropped by \"Naughty Doggebi\"[Image:ms_m8_01.jpg]",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Takes Care of Ancient Animals by [Chang]\" (20) again.",
                 "Pick your animal."
@@ -292,7 +292,7 @@
                 "Talk to \"Miner (Gwee-Sik)\" (4).",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Farmer (Ha-Jik)\" (11).",
-                "Find 25 \"Rice Cake\", which are dropped by \"Big Handed Blue Warriors\".",
+                "Find 25 \"Rice Cake\", which are dropped by \"Big Handed Blue Warriors\"[Image:ms_m2_04.jpg]",
                 "Talk to \"Farmer (Ha-Jik)\" (23) again.",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Gwee-Sik)\" (4) again."
@@ -310,7 +310,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Wa-Ryu\" (25).",
-                "Find \"Wa-Ryu's Talisman\", which are dropped by \"Big Handed Red Warriors\".",
+                "Find \"Wa-Ryu's Talisman\"[Image:12.png] which are dropped by \"Big Handed Red Warriors\"[Image:ms_m2_03.jpg]",
                 "Talk to \"General (Sae-Won)\" (10)"
             ],
             "Rewards": [
@@ -328,7 +328,7 @@
                 "Talk to \"Woman (Yae-Jin)\" (6).",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Joo-Nong)\" (2).",
-                "Find 30 \"Joo-Nong's Gold\", which are dropped by \"Demon Infantry\".",
+                "Find 30 \"Joo-Nong's Gold\", which are dropped by \"Demon Infantry\"[Image:ms_m3_03.jpg]",
                 "Talk to \"Miner (Joo-Nong)\" (2) again.",
                 "Go to the city \"Narootuh\".",
                 "Talk to \"Woman (Yae-Jin)\" (6) again."
@@ -345,7 +345,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Guard (Yang-Do)\" (19).",
-                "Find 30 \"Piece of Bamboo Pole\", which are dropped by \"Demon Throwing Soldiers\".",
+                "Find 30 \"Piece of Bamboo Pole\"[Image:14.png] which are dropped by \"Demon Throwing Soldiers\"[Image:ms_m3_04.jpg]",
                 "Talk to \"Guard (Yang-Do)\" (29) again.",
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Woman (Ok-Jin)\" (5).",
@@ -365,7 +365,7 @@
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Gwee-Sik)\" (4).",
                 "Talk to \"Miner (Joo-Nong)\" (2).",
-                "Find 30 \"Statue\", which are dropped by \"Wild Demon Soldier\".",
+                "Find 30 \"Statue\"[Image:15.png] which are dropped by \"Wild Demon Soldier\"[Image:ms_m3_05.jpg]",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Gwee-Sik)\" (4) again."
             ],
@@ -381,7 +381,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Ja-Gan\" (23).",
-                "Find 30 \"Ja-Gan's Gold\", which are dropped by \"Demon Shock Troopers\".",
+                "Find 30 \"Ja-Gan's Gold\"[Image:16.png] which are dropped by \"Demon Shock Troopers\"[Image:ms_m3_06.jpg]",
                 "Talk to \"Ja-Gan\" (23) again.",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Won-Ga\" (24).",
@@ -400,8 +400,8 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Royal Inspector\" (32).",
-                "Kill 15 \"Wild Demon Soldier\"",
-                "Kill 15 \"Demon Shock Troopers\"",
+                "Kill 15 \"Wild Demon Soldier\"[Image:ms_m3_05.jpg]",
+                "Kill 15 \"Demon Shock Troopers\"[Image:ms_m3_06.jpg]",
                 "Talk to \"Royal Inspector\" (32) again."
             ],
             "Rewards": [
@@ -416,7 +416,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
-                "Find 35 \"Red Flag\", which are dropped by \"Demon Flag Bearer\".",
+                "Find 35 \"Red Flag\"[Image:17.png] which are dropped by \"Demon Flag Bearer\"[Image:ms_m3_07.jpg]",
                 "Talk to \"General (Sae-Won)\" (10) again."
             ],
             "Rewards": [
@@ -431,7 +431,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
-                "Find 35 \"Demon Water Dragon Head\", which are dropped by \"Demon Water Dragons\".",
+                "Find 35 \"Demon Water Dragon Head\"[Image:18.png] which are dropped by \"Demon Water Dragons\"[Image:ms_m4_01.jpg]",
                 "Talk to \"General (Sae-Won)\" (10) again."
             ],
             "Rewards": [
@@ -446,7 +446,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
-                "Find 40 \"Demon's Drum\", which are dropped by \"Demon Band\".",
+                "Find 40 \"Demon's Drum\"[Image:19.png] which are dropped by \"Demon Band\"[Image:ms_m3_08.jpg]",
                 "Talk to \"General (Sae-Won)\" (10) again."
             ],
             "Rewards": [
@@ -461,7 +461,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Royal Inspector\" (32).",
-                "Kill 40 \"Demon Band\".",
+                "Kill 40 \"Demon Band\"[Image:ms_m3_08.jpg]",
                 "Talk to \"Royal Inspector\" (32) again."
             ],
             "Rewards": [
@@ -476,7 +476,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Chief-Guard (Guh-Sosun)\" (5).",
-                "Find 40 \"Demon's Armor\", which are dropped by \"Demon Armored Knight\".",
+                "Find 40 \"Demon's Armor\"[Image:20.png] which are dropped by \"Demon Armored Knight\"[Image:ms_m3_09.jpg]",
                 "Talk to \"Chief-Guard (Guh-Sosun)\" (5) again."
             ],
             "Rewards": [
@@ -491,7 +491,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Guard (Won-Jung)\" (1).",
-                "Find 40 \"Bloodstained Clothes\", which are dropped by \"Hungry Demon Water Dragon\".",
+                "Find 40 \"Bloodstained Clothes\"[Image:21.png] which are dropped by \"Hungry Demon Water Dragon\"[Image:ms_m4_02.jpg]",
                 "Talk to \"Guard (Won-Jung)\" (1) again."
             ],
             "Rewards": [
@@ -507,7 +507,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"Chief-Guard (Guh-Sosun)\" (5).",
-                "Find 40 \"Demon Water Dragon Skin\", which is dropped by \"Demon Water Dragon Predator\".",
+                "Find 40 \"Demon Water Dragon Skin\"[Image:22.png] which is dropped by \"Demon Water Dragon Predator\"[Image:ms_m4_03.jpg]",
                 "Talk to \"Chief-Guard (Guh-Sosun)\" (5) again."
             ],
             "Rewards": [
@@ -523,7 +523,7 @@
             "Steps": [
                 "Go to the city \"Jook-Suh Cargo Station\".",
                 "Talk to \"General (Sae-Won)\" (10).",
-                "Find 40 \"Demon Mad Knight Head\", which are dropped by \"Demon Mad Knight\".",
+                "Find 40 \"Demon Mad Knight Head\"[Image:23.png] which are dropped by \"Demon Mad Knight\"[Image:ms_m3_10.jpg]",
                 "Talk to \"General (Sae-Won)\" (10) again."
             ],
             "Rewards": [
@@ -540,7 +540,7 @@
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mother of Moon-Hee\" (51).",
                 "Talk to \"Ghost of [Moon-Hee]\"  [out of town].",
-                "Find \"Moon-Hee's Doll\", which is dropped by \"Castoff Baby Ghost\".",
+                "Find \"Moon-Hee's Doll\"[Image:24.png] which is dropped by \"Castoff Baby Ghost\"[Image:ms_m5_01.jpg]",
                 "Talk to \"Ghost of [Moon-Hee]\"  [out of town] again."
             ],
             "Rewards": [
@@ -550,14 +550,14 @@
         },
         {
             "Type": "EVENT",
-            "QuestId": "Lvl 30 Job Change",
+            "QuestId": "8 [Lvl 30 Job Change]",
             "Level": 30,
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"HyungJoo-SeungGong\" (1).",
-                "1st try to drop \"Demon Commander's Head\", which is dropped by \"Demon Commander\", so you don't have to walk twice.",
+                "[1st try to drop \"Demon Commander's Head\", which is dropped by \"Demon Commander\" , so you don't have to walk twice.]",
                 "Talk to \"Master [Jin-Pyung]\" (28).",
-                "Find \"Demon Commander's Head\", which is dropped by \"Demon Commander\".",
+                "Find \"Demon Commander's Head\"[Image:ev4.png] which is dropped by \"Demon Commander\"[Image:ms_m3_11.jpg]",
                 "Talk again to \"Master [Jin-Pyung]\" (28)."
             ],
             "Rewards": [
@@ -573,7 +573,7 @@
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Hyun-Choong\" (59).",
                 "Talk to \"Jin-Haeryang\" (16).",
-                "Find 100 \"Sealed Talisman with Spirits\", which are dropped by all Ghosts.",
+                "Find 100 \"Sealed Talisman with Spirits\"[Image:26.png] which are dropped by \"all Ghosts\".",
                 "Talk to \"Jin-Haeryang\" (16) again.",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
                 "Talk to \"Farmer who lost his Farmland\" (23).",
@@ -581,14 +581,14 @@
                 "Talk to \"Smith who lost his family\" (5).",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
                 "Find one head of each Devil:",
-                "Find 1 \"Devil Soldier's Head\", which are dropped by \"Devil Soldier\"",
-                "Find 1 \"Devil Soldier Twin Blades' Head\", which are dropped by \"Devil Soldier\"",
-                "Find 1 \"Devil Soldier Bow's Head\", which are dropped by \"Devil Soldier Bow\"",
-                "Find 1 \"Devil Soldier Sword's Head\", which are dropped by \"Devil Soldier Sword\"",
-                "Find 1 \"Devil Soldier Spear's Head\", which are dropped by \"Devil Soldier Spear\"",
-                "Find 1 \"Devil Soldier Sub-boss' Head\", which are dropped by \"Devil Soldier Sub-boss\"",
-                "Find 1 \"1st Devil Monster Head\", which are dropped by \"1st Devil Monster\"",
-                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20) again (two times)."
+                "Find 1 \"Devil Soldier's Head\"[Image:37.png] which are dropped by \"Devil Soldier\"",
+                "Find 1 \"Devil Soldier Twin Blades' Head\"[Image:37.png] which are dropped by \"Devil Soldier With Twin Blades\"",
+                "Find 1 \"Devil Soldier Bow's Head\"[Image:37.png] which are dropped by \"Devil Soldier With Bow\"",
+                "Find 1 \"Devil Soldier Sword's Head\"[Image:37.png] which are dropped by \"Devil Soldier With Sword\"",
+                "Find 1 \"Devil Soldier Spear's Head\"[Image:37.png] which are dropped by \"Devil Soldier With Spear\"",
+                "Find 1 \"Devil Soldier Sub-boss' Head\"[Image:ev5_2.png] which are dropped by \"Devil Soldier Sub-boss\"",
+                "Find 1 \"1st Devil Monster Head\"[Image:ev5_3.png] which are dropped by \"1st Devil Monster\"",
+                "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20) again [two times]."
             ],
             "Rewards": [
                 "Aprentice Trinket",
@@ -602,7 +602,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Royal Inspector\" (32).",
-                "Kill 40 \"Demon Mad Knight\".",
+                "Kill 40 \"Demon Mad Knight\"[Image:ms_m3_10.jpg]",
                 "Talk to \"Royal Inspector\" (32) again."
             ],
             "Rewards": [
@@ -617,7 +617,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Fort Guard (Heung-Pae)\" (49).",
-                "Find \"Wolf Tooth Necklace\", which is dropped by \"Ghost Of Young Man\".",
+                "Find \"Wolf Tooth Necklace\"[Image:25.png] which is dropped by \"Ghost Of Young Man\"[Image:ms_m5_02.jpg]",
                 "Talk to \"Fort Guard (Heung-Pae)\" (49) again."
             ],
             "Rewards": [
@@ -632,7 +632,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Chief Guard (Duk-Yoon)\" (60).",
-                "Find 10 \"Ghost Bead\", which are dropped by \"Ghost Of Young Woman\".",
+                "Find 10 \"Ghost Bead\"[Image:26.png] which are dropped by \"Ghost Of Young Woman\"[Image:ms_m5_03.jpg]",
                 "Talk to \"Chief Guard (Duk-Yoon)\" (60) again."
             ],
             "Rewards": [
@@ -647,7 +647,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Guard (Yang-Do)\" (29).",
-                "Find \"Demon Troops Confidential Document\", which is dropped by \"Demon Commander\".",
+                "Find \"Demon Troops Confidential Document\"[Image:27.png] which is dropped by \"Demon Commander\"[Image:ms_m3_11.jpg]",
                 "Talk to \"Guard (Yang-Do)\" (29) again."
             ],
             "Rewards": [
@@ -662,7 +662,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Royal Inspector\" (32).",
-                "Kill 10 \"Demon Commander\".",
+                "Kill 10 \"Demon Commander\"[Image:ms_m3_11.jpg]",
                 "Talk to \"Royal Inspector\" (32) again."
             ],
             "Rewards": [
@@ -677,7 +677,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Fort Guard (Soo-Go)\" (52).",
-                "Find 10 \"Blacksmith Bead\", which are dropped by \"Ghost Of Blacksmith\".",
+                "Find 10 \"Blacksmith Bead\"[Image:26.png] which are dropped by \"Ghost Of Blacksmith\"[Image:ms_m5_04.jpg]",
                 "Talk to \"Fort Guard (Soo-Go)\" (52) again."
             ],
             "Rewards": [
@@ -692,7 +692,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Fort Guard (Dan-Bok)\" (45).",
-                "Find 10 \"Ghost Guard Bead\", which are dropped by \"Ghost Guard\".",
+                "Find 10 \"Ghost Guard Bead\"[Image:26.png] which are dropped by \"Ghost Guard\"[Image:ms_m5_05.jpg]",
                 "Talk to \"Fort Guard (Dan-Bok)\" (45) again."
             ],
             "Rewards": [
@@ -707,7 +707,7 @@
             "Steps": [
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Miner (Gwee-Sik)\" (4).",
-                "Find 1 \"Demon Water Dragon Commanders Skin\", which is dropped by \"Demon Dragon Commander\".",
+                "Find 1 \"Demon Water Dragon Commanders Skin\"[Image:30.png] which is dropped by \"Demon Dragon Commander\"[Image:ms_m4_04.jpg]",
                 "Talk to \"Miner (Gwee-Sik)\" (4) again."
             ],
             "Rewards": [
@@ -722,7 +722,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 40 \"Fellow traveller to the other world\" and Kill 40 \"Sealed ghost troop\".",
+                "Kill 40 \"Fellow traveller to the other world\"[Image:ms_m5_06.jpg] and Kill 40 \"Sealed ghost troop\"[Image:ms_m5_07.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -736,7 +736,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Fort Guard (Ga-Gi)\" (1).",
-                "Find 10 \"Fellow Traveller Bead\", which are dropped by \"Fellow traveller to the other world\".",
+                "Find 10 \"Fellow Traveller Bead\"[Image:26.png] which are dropped by \"Fellow traveller to the other world\"[Image:ms_m5_06.jpg]",
                 "Talk to \"Fort Guard (Ga-Gi)\" (1) again."
             ],
             "Rewards": [
@@ -751,7 +751,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Fort Guard (Soo-Sung)\" (10).",
-                "Find 10 \"Sealed Troop Bead\", which are dropped by \"Sealed ghost troop\".",
+                "Find 10 \"Sealed Troop Bead\"[Image:26.png] which are dropped by \"Sealed ghost troop\"[Image:ms_m5_07.jpg]",
                 "Talk to \"Fort Guard (Soo-Sung)\" (10) again."
             ],
             "Rewards": [
@@ -766,7 +766,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier from Troop of (Yoo-Sang)\" (19).",
-                "Find 10 \"Devil Soldier's Bow\", which are dropped by \"Devil Soldier With Bow\".",
+                "Find 10 \"Devil Soldier's Bow\"[Image:33.png] which are dropped by \"Devil Soldier With Bow\"[Image:ms_m6_03.jpg]",
                 "Talk to \"Soldier from Troop of (Yoo-Sang)\" (19) again."
             ],
             "Rewards": [
@@ -781,7 +781,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 40 \"Devil Soldier With Bow\" and Kill 40 \"Devil Soldier With Sword\".",
+                "Kill 40 \"Devil Soldier With Bow\"[Image:ms_m6_03.jpg] and Kill 40 \"Devil Soldier With Sword\"[Image:ms_m6_04.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -796,7 +796,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier from Troop of Jae-Ga (Lim-Gang)\" (2).",
-                "Find 10 \"Devil Soldier's Spear\", which are dropped by \"Devil Soldier's Spear\".",
+                "Find 10 \"Devil Soldier's Spear\"[Image:34.png] which are dropped by \"Devil Soldier's Spear\"[Image:ms_m6_05.jpg]",
                 "Talk to \"Soldier from Troop of Jae-Ga (Lim-Gang)\" (2) again."
             ],
             "Rewards": [
@@ -811,7 +811,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
-                "Find \"Green Crystal\", which is dropped by \"Devil Troops of Absorbing Green\" (you will find it on the way to d3 and around d1 gates).",
+                "Find \"Green Crystal\"[Image:ev6.png] which is dropped by \"Devil Troops of Absorbing Green\"[Image:ms_m7_07.jpg] (you will find it on the way to d3 and around d1 gates).",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20) again."
             ],
             "Rewards": [
@@ -826,7 +826,7 @@
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"To-Woo\" (50).",
                 "Talk to \"Hyun-Woong\"  [out of town].",
-                "Find \"Head of Huhn-Woong's Enemy\", which is dropped by \"Enemy Of Hyun-Woong\" [out of town].",
+                "Find \"Head of Huhn-Woong's Enemy\"[Image:37.png] which is dropped by \"Enemy Of Hyun-Woong\"[Image:ms_m6_02.jpg] [out of town].",
                 "Talk to \"Hyun-Woong\"  [out of town].",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"To-Woo\" (50) again."
@@ -842,7 +842,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mask of Ghost Hunter (Woo-Joong)\" (11).",
-                "Find 100 \"Devil Troop of Pain's Mask\", which are dropped by \"Devil Troop Of Pain\".",
+                "Find 100 \"Devil Troop of Pain's Mask\"[Image:36.png] which are dropped by \"Devil Troop Of Pain\"[Image:ms_m7_02.jpg]",
                 "Talk to \"Mask of Ghost Hunter (Woo-Joong)\" (11) again."
             ],
             "Rewards": [
@@ -862,11 +862,11 @@
                 "Talk to \"Ma-Yong\" (23).",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Red Flag Leader (Gee-Gung)\" (44) again.",
-                "Find \"Head of Heuk-Yong\", which is dropped by \"Heuk-Yong\"  [out of town].",
-                "Find \"Head of Dae-Ill\", which is dropped by \"Dae-Ill\"  [out of town].",
-                "Find \"Head of Yoo\", which is dropped by \"Yoo\" [out of town].",
-                "Find \"Head of Ma-Gwang\", which is dropped by \"Ma-Gwang\"  [out of town].",
-                "Find \"Head of Goon-Sangji\", which is dropped by \"Goon-Sang-Ji\"  [out of town].",
+                "Find \"Head of Heuk-Yong\"[Image:37.png] which is dropped by \"Heuk-Yong\"  [out of town].",
+                "Find \"Head of Dae-Ill\"[Image:37.png] which is dropped by \"Dae-Ill\"  [out of town].",
+                "Find \"Head of Yoo\"[Image:37.png] which is dropped by \"Yoo\" [out of town].",
+                "Find \"Head of Ma-Gwang\"[Image:37.png] which is dropped by \"Ma-Gwang\"  [out of town].",
+                "Find \"Head of Goon-Sangji\"[Image:37.png] which is dropped by \"Goon-Sang-Ji\"  [out of town].",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Red Flag Leader (Gee-Gung)\" (44) again."
             ],
@@ -881,7 +881,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mask of Ghost Hunter (Jwa-II)\" (12).",
-                "Find 100 \"Devil Troop of Greed's Mask\", which are dropped by \"Devil Troop Of Greed\".",
+                "Find 100 \"Devil Troop of Greed's Mask\"[Image:36.png] which are dropped by \"Devil Troop Of Greed\"[Image:ms_m7_03.jpg]",
                 "Talk to \"Mask of Ghost Hunter (Jwa-II)\" (12) again."
             ],
             "Rewards": [
@@ -895,7 +895,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 70 \"Devil Soldier's Spear\".",
+                "Kill 70 \"Devil Soldier's Spear\"[Image:ms_m6_05.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -913,8 +913,7 @@
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"[Ma-Gill]\" (64).",
                 "Talk to \"[Seoung-Gill]\"  [out of town] again.",
-                "Find \"Secret Letter\" and \"Head Skin of Yong-Chun\", which is dropped by \"Assassin who killed Yong-Chun\"  [out of town].",
-                "Talk to \"[Seoung-Gill]\"  [out of town] again.",
+                "Find \"Secret Letter\"[Image:39.png] and Find \"Head Skin of Yong-Chun\"[Image:39_1.png] which is dropped by \"Assassin who killed Yong-Chun\"  [out of town].",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"[Ma-Gill]\" (64) again.",
                 "Talk to \"[Seoung-Gill]\"  [out of town] again."
@@ -930,7 +929,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mask of Ghost Hunter (Geun-Pyung)\" (13).",
-                "Find 100 \"Devil Troop of Jealousy's Mask\", which are dropped by \"Devil Troop Of Jealousy\".",
+                "Find 100 \"Devil Troop of Jealousy's Mask\"[Image:36.png] which are dropped by \"Devil Troop Of Jealousy\"[Image:ms_m7_04.jpg]",
                 "Talk to \"Mask of Ghost Hunter (Geun-Pyung)\" (13) again."
             ],
             "Rewards": [
@@ -944,7 +943,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"[Hak-Goo]\"  [out of town].",
-                "Find \"Rope\", which is dropped by \"Devil Troop Of Hatred\".",
+                "Find \"Rope\"[Image:41.png] which is dropped by \"Devil Troop Of Hatred\"[Image:ms_m7_05.jpg]",
                 "Talk to \"[Hak-Goo]\"  [out of town] again."
             ],
             "Rewards": [
@@ -958,7 +957,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mask of Ghost Hunter (Dan-Joong)\" (14).",
-                "Find 100 \"Devil Troop of Hatred's Mask\", which are dropped by \"Devil Troop Of Hatred\".",
+                "Find 100 \"Devil Troop of Hatred's Mask\"[Image:42.png] which are dropped by \"Devil Troop Of Hatred\"[Image:ms_m7_05.jpg]",
                 "Talk to \"Mask of Ghost Hunter (Dan-Joong)\" (14) again."
             ],
             "Rewards": [
@@ -973,13 +972,13 @@
                 "Go to the city \"Forsaken Fort\" (marked on map out of town).",
                 "Talk to \"Doggebi Master\"  [out of town].",
                 "Find 1 spirit of each Doggebi:",
-                "\"Spirit of Doggebi of Monster Face\"",
-                "\"Spirit of Doggebi with a Gong\"",
-                "\"Spirit of Drunken Doggebi\"",
-                "\"Spirit of Doggebi with a Mask of Black Crow\"",
-                "\"Spirit of Doggebi with a Mask of Black Panther\"",
-                "\"Spirit of Giant Doggebi\"",
-                "\"Spirit of Guardian of Doggebi\"",
+                "\"Spirit of Doggebi of Monster Face\"[Image:ev7.png]",
+                "\"Spirit of Doggebi with a Gong\"[Image:ev7.png]",
+                "\"Spirit of Drunken Doggebi\"[Image:ev7.png]",
+                "\"Spirit of Doggebi with a Mask of Black Crow\"[Image:ev7.png]",
+                "\"Spirit of Doggebi with a Mask of Black Panther\"[Image:ev7.png]",
+                "\"Spirit of Giant Doggebi\"[Image:ev7.png]",
+                "\"Spirit of Guardian of Doggebi\"[Image:ev7.png]",
                 "Talk to \"Doggebi Master\"  [out of town] again."
             ],
             "Rewards": [
@@ -993,7 +992,7 @@
             "Steps": [
                 "Go to the city \"Forsaken Fort\".",
                 "Talk to \"Doggebi Master\"  [out of town].",
-                "Find \"Chief of Angry Doggebi Troop's Dead Body\", which is dropped by \"Chief of Angry Doggebi Troop\"  [out of town].",
+                "Find \"Chief of Angry Doggebi Troop's Dead Body\"[Image:ev8.png] which is dropped by \"Chief of Angry Doggebi Troop\"[Image:ms_m8_07.jpg]  [out of town].",
                 "Talk to \"Doggebi Master\"  [out of town]."
             ],
             "Rewards": [
@@ -1007,7 +1006,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Doggebi Who Wants To Be a Friend with Humans\"  [out of town].",
-                "Find \"Defective Doggebi's Doll\", which is dropped by \"Devil Troop Of Anger\".",
+                "Find \"Defective Doggebi's Doll\"[Image:43.png] which is dropped by \"Devil Troop Of Anger\"[Image:ms_m7_07.jpg]",
                 "Talk to \"Doggebi Who Wants To Be a Friend with Humans\"  [out of town] again.",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Doll Craftsman [Gill-Jun]\" (41).",
@@ -1024,7 +1023,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Mask of Ghost Hunter (Choi Choong)\" (15).",
-                "Find 100 \"Devil Troop of Madness' Mask\", which are dropped by \"Devil Troop Of Madness\".",
+                "Find 100 \"Devil Troop of Madness' Mask\"[Image:44.png] which are dropped by \"Devil Troop Of Madness\"[Image:ms_m7_06.jpg]",
                 "Talk to \"Mask of Ghost Hunter (Choi Choong)\" (15) again."
             ],
             "Rewards": [
@@ -1038,7 +1037,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 40 \"Devil Troop Of Madness\" and Kill 40 \"Devil Troop Of Anger\".",
+                "Kill 40 \"Devil Troop Of Madness\"[Image:ms_m7_06.jpg] and Kill 40 \"Devil Troop Of Anger\"[Image:ms_m7_07.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1052,7 +1051,7 @@
             "Level": 46,
             "Steps": [
                 "Talk to \"Limper\"  [out of town].",
-                "Find \"Doggebi Of Monster Face's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi Of Monster Face\".",
+                "Find \"Doggebi Of Monster Face's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Doggebi Of Monster Face\"[Image:ms_m8_01.jpg]",
                 "Talk to \"Limper\"  [out of town] again."
             ],
             "Rewards": [
@@ -1066,7 +1065,7 @@
             "Level": 47,
             "Steps": [
                 "Talk to \"Blind Man\"  [out of town].",
-                "Find \"Doggebi with Gong's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Gong\".",
+                "Find \"Doggebi with Gong's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Doggebi with Gong\"[Image:ms_m8_02.jpg]",
                 "Talk to \"Blind Man\"  [out of town] again."
             ],
             "Rewards": [
@@ -1080,7 +1079,7 @@
             "Level": 48,
             "Steps": [
                 "Talk to \"Coward\"  [out of town].",
-                "Find \"Drunken Doggebi's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Drunken Doggebi\".",
+                "Find \"Drunken Doggebi's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Drunken Doggebi\"[Image:ms_m8_03.jpg]",
                 "Talk to \"Coward\"  [out of town] again."
             ],
             "Rewards": [
@@ -1095,7 +1094,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 10 \"1st Devil Monster\" and Kill 10 \"2nd Devil Monster\".",
+                "Kill 10 \"1st Devil Monster\"[Image:ms_m6_07.jpg] and Kill 10 \"2nd Devil Monster\"[Image:ms_m6_06.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1109,7 +1108,7 @@
             "Level": 49,
             "Steps": [
                 "Talk to \"Hunchback\"  [out of town].",
-                "Find \"Doggebi with Mask of Black Crow's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Mask of Black Crow\".",
+                "Find \"Doggebi with Mask of Black Crow's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Doggebi with Mask of Black Crow\"[Image:ms_m8_04.jpg]",
                 "Talk to \"Hunchback\"  [out of town] again."
             ],
             "Rewards": [
@@ -1123,7 +1122,7 @@
             "Level": 50,
             "Steps": [
                 "Talk to \"Deaf Man\" [out of town].",
-                "Find \"Doggebi with Mask of Black Panther's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Doggebi with Mask of Black Panther\".",
+                "Find \"Doggebi with Mask of Black Panther's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Doggebi with Mask of Black Panther\"[Image:ms_m8_05.jpg]",
                 "Talk to \"Deaf Man\" [out of town] again."
             ],
             "Rewards": [
@@ -1133,12 +1132,12 @@
         },
         {
             "Type": "EVENT",
-            "QuestId": "Lvl 50 Job Change",
+            "QuestId": "20 [Lvl 50 Job Change]",
             "Level": 50,
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
-                "Pick your job. Don't forget that this choice is permanent, that is why you have to confirm twice.",
+                "[Pick your job. Don't forget that this choice is permanent, that is why you have to confirm twice.]",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
             ],
             "Rewards": [
@@ -1152,7 +1151,7 @@
             "Steps": [
                 "Go outside the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town].",
-                "Kill 50 \"Giant Doggebi\".",
+                "Kill 50 \"Giant Doggebi\"[Image:ms_m8_06.jpg]",
                 "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town]."
             ],
             "Rewards": [
@@ -1166,10 +1165,10 @@
             "Steps": [
                 "Go outside the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Doggebi Who Wants To Be a Friend with Humans\" (9) [out of town].",
-                "Kill 50 \"Guardian of Doggebi\".",
+                "Kill 50 \"Guardian of Doggebi\"[Image:ms_m8_07.jpg]",
                 "Kill \"Angry Doggebi of Monster Face\".",
-                "Get drop \"Captured Doggebi\" from \"Angry Doggebi of Monster Face\".",
-                "Angry Doggebi of Monster Face is spawned every 2 Hours since last kill near D1 and hollow tree (you only need to kill him once to count kill and get drop).",
+                "Find \"Captured Doggebi\", which are dropped by \"Angry Doggebi of Monster Face\".",
+                "[Angry Doggebi of Monster Face is spawned every 2 Hours since last kill near D1 and hollow tree (you only need to kill him once to count kill and get drop).]",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
             ],
@@ -1183,7 +1182,7 @@
             "Level": 51,
             "Steps": [
                 "Talk to \"One-armed Man\" [out of town].",
-                "Find \"Giant Doggebi's Broom\" and 5 \"Blood of Big Handed\", which are dropped by \"Giant Doggebis\".",
+                "Find \"Giant Doggebi's Broom\"[Image:45.png] and Find 5 \"Blood of Big Handed\"[Image:45-1.png] which are dropped by \"Giant Doggebis\"[Image:ms_m8_06.jpg]",
                 "Talk to \"One-armed Man\" [out of town] again."
             ],
             "Rewards": [
@@ -1198,9 +1197,9 @@
             "Steps": [
                 "Go to the city \"Forsaken Fort\" (marked on map out of town).",
                 "Talk to \"Doggebi Master\" [out of town].",
-                "Find \"Spirit of Doggebi of Monster Face\"",
-                "Find \"Spirit of Doggebi with a Gong\"",
-                "Find \"Spirit of Drunken Doggebi\"",
+                "Find \"Spirit of Doggebi of Monster Face\"[Image:ev7.png]",
+                "Find \"Spirit of Doggebi with a Gong\"[Image:ev7.png]",
+                "Find \"Spirit of Drunken Doggebi\"[Image:ev7.png]",
                 "Talk to \"Doggebi Master\"  [out of town] again."
             ],
             "Rewards": [
@@ -1214,8 +1213,8 @@
             "Steps": [
                 "Go to the city \"Forsaken Fort\" (marked on map out of town).",
                 "Talk to \"Doggebi Master\"  [out of town].",
-                "Find \"Spirit of Doggebi with a Mask of Black Crow\"",
-                "Find \"Spirit of Doggebi with a Mask of Black Panther\"",
+                "Find \"Spirit of Doggebi with a Mask of Black Crow\"[Image:ev7.png]",
+                "Find \"Spirit of Doggebi with a Mask of Black Panther\"[Image:ev7.png]",
                 "Talk to \"Doggebi Master\"  [out of town] again."
             ],
             "Rewards": [
@@ -1229,8 +1228,8 @@
             "Steps": [
                 "Go to the city \"Forsaken Fort\" (marked on map out of town).",
                 "Talk to \"Doggebi Master\"  [out of town].",
-                "Find \"Spirit of Giant Doggebi\"",
-                "Find \"Spirit of Guardian of Doggebi\"",
+                "Find \"Spirit of Giant Doggebi\"[Image:ev7.png]",
+                "Find \"Spirit of Guardian of Doggebi\"[Image:ev7.png]",
                 "Talk to \"Doggebi Master\"  [out of town] again."
             ],
             "Rewards": [
@@ -1243,7 +1242,13 @@
             "Level": 52,
             "Steps": [
                 "Go to the city \"Forsaken Fort\" (marked on map out of town).",
-                "Kill 10 \"Doggebi of Monster Face\", Kill 10 \"Doggebi with a Gong\", Kill 10 \"Drunken Doggebi\", Kill 10 \"Doggebi with a Mask of Black Crow\", Kill 10 \"Doggebi with a Mask of Black Panther\", Kill 10 \"Giant Doggebi\", Kill 10 \"Guardian of Doggebi\" and Kill 1 \"Chief of Angry Doggebi Troop\".",
+                "Kill 10 \"Doggebi of Monster Face\"[Image:ms_m8_01.jpg]",
+                "Kill 10 \"Doggebi with a Gong\"[Image:ms_m8_02.jpg]",
+                "Kill 10 \"Drunken Doggebi\"[Image:ms_m8_03.jpg]",
+                "Kill 10 \"Doggebi with a Mask of Black Crow\"[Image:ms_m8_04.jpg]",
+                "Kill 10 \"Doggebi with a Mask of Black Panther\"[Image:ms_m8_05.jpg]",
+                "Kill 10 \"Giant Doggebi\"[Image:ms_m8_06.jpg]",
+                "Kill 10 \"Guardian of Doggebi\"[Image:ms_m8_07.jpg] and Kill 1 \"Chief of Angry Doggebi Troop\"[Image:ms_m8_07.jpg]",
                 "Talk to \"Doggebi Master\"  [out of town] again."
             ],
             "Rewards": [
@@ -1257,7 +1262,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 50 \"Doggebi with Mask of Black Crow\" and Kill 50 \"Doggebi with Mask of Black Panther\".",
+                "Kill 50 \"Doggebi with Mask of Black Crow\"[Image:ms_m8_04.jpg] and Kill 50 \"Doggebi with Mask of Black Panther\"[Image:ms_m8_05.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1271,7 +1276,7 @@
             "Level": 52,
             "Steps": [
                 "Talk to \"Manager\"[out of town].",
-                "Find \"Guardian of Doggebi's Stone\" and 5 \"Water Dragon Blood\", which are dropped by \"Guardian of Doggebi\".",
+                "Find \"Guardian of Doggebi's Stone\"[Image:51.png] and Find 5 \"Water Dragon Blood\"[Image:45-1.png] which are dropped by \"Guardian of Doggebi\"[Image:ms_m8_07.jpg]",
                 "Talk to \"Manager\" [out of town] again."
             ],
             "Rewards": [
@@ -1287,7 +1292,7 @@
                 "Scout surrounding the Tower of Doggebi (1)",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 40 \"Doggebi with Gong\", Kill 30 \"Drunken Doggebi\" and Kill 30 \"Doggebi with Mask of Black Crow\".",
+                "Kill 40 \"Doggebi with Gong\"[Image:ms_m8_01.jpg], Kill 30 \"Drunken Doggebi\"[Image:ms_m8_03.jpg] and Kill 30 \"Doggebi with Mask of Black Crow\"[Image:ms_m8_04.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1305,7 +1310,7 @@
                 "Talk to \"Ja-Sang\" (36).",
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Skeleton Warrior's Head\", which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\".",
+                "Find 5 \"Skeleton Warrior's Head\"[Image:52.png] which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\"[Image:ms_m9_01.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1321,7 +1326,7 @@
                 "Scout surrounding the Tower of Doggebi (2)",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 40 \"Drunken Doggebi\", Kill 30 \"Doggebi with Mask of Black Crow\" and Kill 30 \"Doggebi with Mask of Black Panther\".",
+                "Kill 40 \"Drunken Doggebi\"[Image:ms_m8_03.jpg], Kill 30 \"Doggebi with Mask of Black Crow\"[Image:ms_m8_04.jpg] and Kill 30 \"Doggebi with Mask of Black Panther\"[Image:ms_m8_05.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1338,7 +1343,7 @@
                 "Scout surrounding the Tower of Doggebi (3)",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 30 \"Doggebi with Mask of Black Crow\", Kill 30 \"Doggebi with Mask of Black Panther\", Kill 30 \"Giant Doggebis\" and Kill 10 \"Guardian of Doggebi\".",
+                "Kill 30 \"Doggebi with Mask of Black Crow\"[Image:ms_m8_04.jpg], Kill 30 \"Doggebi with Mask of Black Panther\"[Image:ms_m8_05.jpg], Kill 30 \"Giant Doggebis\"[Image:ms_m8_06.jpg] and Kill 10 \"Guardian of Doggebi\"[Image:ms_m8_07.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1354,7 +1359,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Skeleton Warrior's Ribs\", which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\".",
+                "Find 5 \"Skeleton Warrior's Ribs\"[Image:53.png] which are dropped by \"Rotten Skeleton Warrior of the Royal Tomb\"[Image:ms_m9_02.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1369,7 +1374,12 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
-                "Go to D1 and kill 20 \"Doggebi of Monster Face\", 20 \"Doggebi with a Gong\", 20 \"Drunken Doggebi\", 20 \"Doggebi with a Mask of Black Crow\" and 20 \"Doggebi with a Mask of Black Panther\".",
+                "[Go to D1]",
+                "Kill 20 \"Doggebi of Monster Face\"[Image:ms_m8_01.jpg]",
+                "Kill 20 \"Doggebi with a Gong\"[Image:ms_m8_02.jpg]",
+                "Kill 20 \"Drunken Doggebi\"[Image:ms_m8_03.jpg]",
+                "Kill 20 \"Doggebi with a Mask of Black Crow\"[Image:ms_m8_04.jpg]",
+                "Kill 20 \"Doggebi with a Mask of Black Panther\"[Image:ms_m8_05.jpg]",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20)."
             ],
             "Rewards": [
@@ -1383,7 +1393,7 @@
             "Steps": [
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Royal Inspector\" (68).",
-                "Kill 50 \"Giant Doggebis\" and Kill 50 \"Guardian of Doggebi\".",
+                "Kill 50 \"Giant Doggebis\"[Image:ms_m8_06.jpg] and Kill 50 \"Guardian of Doggebi\"[Image:ms_m8_07.jpg]",
                 "Talk to \"Royal Inspector\" (68) again."
             ],
             "Rewards": [
@@ -1398,7 +1408,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Book\", which are dropped by \"Minister of the Royal Tomb\".",
+                "Find 5 \"Royal Tomb Keeper's Book\"[Image:54.png] which are dropped by \"Minister of the Royal Tomb\"[Image:ms_m9_03.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1414,7 +1424,7 @@
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
                 "Talk to \"Chief Guard\" (2).",
-                "Get 5 \"Speed up Medicine\".",
+                "Find 5 \"Speed up Medicine\"[Image:speed.jpg].",
                 "Talk to \"Chief Guard\" (2)."
             ],
             "Rewards": [
@@ -1428,7 +1438,8 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Sword)\" and Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Lance)\".",
+                "Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Sword)\"[Image:ms_m9_01.jpg]",
+                "Kill 60 \"Rotten Skeleton Warrior of the Royal Tomb (Lance)\"[Image:ms_m9_02.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
             ],
             "Rewards": [
@@ -1443,7 +1454,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Kill 100 \"Maid of Honor of the Royal Tomb\".",
+                "Kill 100 \"Maid of Honor of the Royal Tomb\"[Image:ms_m9_04.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
             ],
             "Rewards": [
@@ -1459,7 +1470,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Kill 100 \"Minister of the Royal Tomb\".",
+                "Kill 100 \"Minister of the Royal Tomb\"[Image:ms_m9_03.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13)."
             ],
             "Rewards": [
@@ -1473,7 +1484,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Lute\", which are dropped by \"Maid of Honor of the Royal Tomb\".",
+                "Find 5 \"Royal Tomb Keeper's Lute\"[Image:55.png], which are dropped by \"Maid of Honor of the Royal Tomb\"[Image:ms_m9_04.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1488,7 +1499,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Sword\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Find 5 \"Royal Tomb Keeper's Sword\"[Image:56.png] which are dropped by \"The Royal Tomb Keeper\"[Image:ms_m9_06.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1503,7 +1514,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Royal Inspector\" (31).",
-                "Kill 60 \"Minister of the Royal Tomb\" and Kill 60 \"Maid of Honor of the Royal Tomb\".",
+                "Kill 60 \"Minister of the Royal Tomb\"[Image:ms_m9_03.jpg] and Kill 60 \"Maid of Honor of the Royal Tomb\"[Image:ms_m9_04.jpg]",
                 "Talk to \"Royal Inspector\" (31)."
             ],
             "Rewards": [
@@ -1518,7 +1529,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Sheild\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Find 5 \"Royal Tomb Keeper's Sheild\"[Image:57.png] which are dropped by \"The Royal Tomb Keeper\"[Image:ms_m9_05.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1533,7 +1544,7 @@
             "Steps": [
                 "Go to the city \"City of Priest\".",
                 "Talk to \"An-Hyunsoo\" (11).",
-                "Get 5 \"Baked Mackarel in Soy Sauce\" (you can make them in fort with 1 Mackarel fish (4)).",
+                "Find 5 \"Baked Mackarel in Soy Sauce\"[Image:35b.jpg] [you can make them in fort with 1 Mackarel fish].",
                 "Talk to \"An-Hyunsoo\" (11)."
             ],
             "Rewards": [
@@ -1547,7 +1558,7 @@
             "Steps": [
                 "Go to the city \"City of Priest\".",
                 "Talk to \"An-Hyunsoo\" (11).",
-                "Kill 60 \"The Royal Tomb Keeper (sword)\" and Kill 60 \"The Royal Tomb Keeper (Shield)\".",
+                "Kill 60 \"The Royal Tomb Keeper (sword)\"[Image:ms_m9_06.jpg] and Kill 60 \"The Royal Tomb Keeper (Shield)\"[Image:ms_m9_05.jpg]",
                 "Talk to \"An-Hyunsoo\" (11)."
             ],
             "Rewards": [
@@ -1561,7 +1572,7 @@
             "Steps": [
                 "Go to the city \"City of Priest\".",
                 "Talk to \"An-Hyunsoo\" (11).",
-                "Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\" and Kill 60 \"The Royal Tomb Keeper (Spear)\".",
+                "Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\"[Image:ms_m9_07.jpg] and Kill 60 \"The Royal Tomb Keeper (Spear)\"[Image:ms_m9_08.jpg]",
                 "Talk to \"An-Hyunsoo\" (11)."
             ],
             "Rewards": [
@@ -1575,7 +1586,7 @@
             "Steps": [
                 "Go to the city \"City of Priest\".",
                 "Talk to \"Sur-An\" (9).",
-                "Kill 60 \"The Royal Tomb Keeper (sword)\", Kill 60 \"The Royal Tomb Keeper (Shield)\", Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\" and Kill 60 \"The Royal Tomb Keeper (Spear)\".",
+                "Kill 60 \"The Royal Tomb Keeper (sword)\"[Image:ms_m9_06.jpg], Kill 60 \"The Royal Tomb Keeper (Shield)\"[Image:ms_m9_05.jpg], Kill 60 \"The Royal Tomb Keeper (Iron Hammer)\"[Image:ms_m9_07.jpg] and Kill 60 \"The Royal Tomb Keeper (Spear)\"[Image:ms_m9_08.jpg]",
                 "Talk to \"Sur-An\" (9)."
             ],
             "Rewards": [
@@ -1589,7 +1600,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Spear\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Find 5 \"Royal Tomb Keeper's Spear\"[Image:58.png] which are dropped by \"The Royal Tomb Keeper\"[Image:ms_m9_07.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1604,7 +1615,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13).",
-                "Find 5 \"Royal Tomb Keeper's Iron Hammer\", which are dropped by \"The Royal Tomb Keeper\".",
+                "Find 5 \"Royal Tomb Keeper's Iron Hammer\"[Image:58.png] which are dropped by \"The Royal Tomb Keeper\"[Image:ms_m9_08.jpg]",
                 "Talk to \"Tomb Keeper [Gang-Man]\" (13) again."
             ],
             "Rewards": [
@@ -1619,7 +1630,7 @@
             "Steps": [
                 "Go to the city \"Pub of the Giant Bird\".",
                 "Talk to \"Royal Inspector\" (31).",
-                "Kill 20 \"The Royal Tomb Keeper (Sword)\", Kill 40 \"The Royal Tomb Keeper (Shield)\", Kill 40 \"The Royal Tomb Keeper (Iron hammer)\" and Kill 40 \"The Royal Tomb Keeper (Spear)\".",
+                "Kill 20 \"The Royal Tomb Keeper (Sword)\"[Image:ms_m9_06.jpg], Kill 40 \"The Royal Tomb Keeper (Shield)\"[Image:ms_m9_05.jpg] Kill 40 \"The Royal Tomb Keeper (Iron hammer)\"[Image:ms_m9_08.jpg] and Kill 40 \"The Royal Tomb Keeper (Spear)\"[Image:ms_m9_07.jpg]",
                 "Talk to \"Royal Inspector\" (31) again."
             ],
             "Rewards": [
@@ -1628,30 +1639,31 @@
         },
         {
             "Type": "EVENT",
-            "QuestId": 40,
+            "QuestId": "40 [Lv70 Job Change]",
             "Level": 70,
             "Steps": [
-                "3. Job Change",
                 "Go to the city \"Temporary Fort of Geum-Ohee Castle\".",
                 "Talk to \"Soldier at Fort of Geum-Ohee Castle [Jae-Ga]\" (20).",
                 "Go to the city \"City of Priest\".",
                 "Talk to \"Sur-An\" (9).",
                 "Drop 10 Elements of each monster in \"Forrest of Elements\"",
-                "\"element of fire\"",
-                "\"element of water\"",
-                "\"element of wood\"",
-                "\"element of iron\"",
-                "\"element of ground\"",
-                "Elements can be made out of \"Imperfect element of ..\", which are dropped by the same mobs in \"Forrest of Elements\" or in D5.",
-                "When you find 20 imperfects you can carry them to \"Element collection official [Hwa Eun]\" (19), which is in \"City of Priest\".",
-                "This conversion costs you 200k each try and it is not guaranteed that you will get an element. It can fail. The rest percentage of success was 35. But that was raised to a value that I do not know of.",
-                "Now you carry all those converted elements to the altars, which are found on all mayor spots at the \"Forrest of Elements\".",
+                "[Image:ev10_1.png]\"element of fire\"",
+                "[Image:ev10_2.png]\"element of water\"",
+                "[Image:ev10_3.png]\"element of wood\"",
+                "[Image:ev10_4.png]\"element of iron\"",
+                "[Image:ev10_5.png]\"element of ground\"",
+                "\"Elements\" can be made out of \"Imperfect element of ..\", which are dropped by the same mobs in \"Forrest of Elements\" or in D5.",
+                "[When you find 20 imperfects]",
+                "Go to the city \"City of Priest\"",
+                "Talk to \"Element collection official [Hwa Eun]\"",
+                "[This conversion costs you 200k each try and it is not guaranteed that you will get an element. It can fail.]",
+                "[Now you carry all those converted elements to the altars, which are found on all mayor spots at the \"Forrest of Elements\".]",
                 "Talk to \"Sur-An\" (9).",
-                "You have to find some more items, which are dropped by different mobs, or you can get them in \"Picture of hell\"",
-                "\"Monster's Right Arm\", dropped by \"Demon Monster\" in D4 on every floor",
-                "\"Necklace of Evil\", dropped by \"Chief of the Traitor's Hangout, Yoong-Gi\" at \"Highlands of Sky\" (Traitor Hang Out)",
-                "\"Lord's Jaw\", dropped by \"Lord of Shadow Troop\" in D2",
-                "\"Sword of the Chief Defender\", dropped by \"Twisted Demon Defender\" at \"Emok Island\"",
+                "You have to find some more items, which are dropped by different mobs [or you can get them in \"Picture of hell\"]",
+                "Find \"Monster's Right Arm\"[Image:ev10_6.png] dropped by \"Demon Monster\" in [D4 on every floor]",
+                "Find \"Necklace of Evil\"[Image:ev10_7.png] dropped by \"Chief of the Traitor's Hangout, Yoong-Gi\" in [Traitor Hang Out]",
+                "Find \"Lord's Jaw\"[Image:ev10_8.png] dropped by \"Lord of Shadow Troop\" in [D2]",
+                "Find \"Sword of the Chief Defender\"[Image:ev10_9.png] dropped by \"Twisted Demon Defender\" in [Emok Island]",
                 "Talk to \"Sur-An\" (9)."
             ],
             "Rewards": [
@@ -1666,19 +1678,19 @@
                 "Go to the \"Forrest of Elements\".",
                 "Talk to \"Priest Tower [Il Ja]\" (14) [out of town].",
                 "Find \"Souls of Undead\" from higher level spirit monsters or MK monsters in D5.",
-                "\"Essence of earth element\" at Floor 3",
-                "\"Essence of wood element\" at Floor 4",
-                "\"Essence of water element\" at Floor 6",
-                "\"Essence of fire element\" at Floor 8",
-                "\"Essence of iron element\" at Floor 9",
+                "Find \"Essence of earth element\"[Image:ev11_5.png] at [Floor 3]",
+                "Find \"Essence of wood element\"[Image:ev11_3.png] at [Floor 4]",
+                "Find \"Essence of water element\"[Image:ev11_2.png] at [Floor 6]",
+                "Find \"Essence of fire element\"[Image:ev11_1.png] at [Floor 8]",
+                "Find \"Essence of iron element\"[Image:ev11_4.png] at [Floor 9]",
                 "Talk to \"Priest Tower [Il Ja]\" (14) [out of town].",
                 "The Trial of “I’Lryer” - The new world",
                 "Go to D5",
-                "Find 100 \"Essence of undead\", dropped by all mobs in D5.",
-                "Find \"I'Lryer's ring\" in D5, dropped by \"Cheios\" and \"Dunamic\" on F10 or \"Illusion of Dunamic\" and \"Illusion of Cheois\" on F9 (R1 and R2).",
+                "Find 100 \"Essence of undead\"[Image:ev11_6.png], dropped by all mobs in D5.",
+                "Find \"I'Lryer's ring\"[Image:ev11_7.png] in D5, dropped by \"Cheios\" and by \"Dunamic\" on F10 or by \"Illusion of Dunamic\" and by \"Illusion of Cheois\" on F9 (R1 and R2).",
                 "Go to the city \"Geum-Oh Mine\".",
                 "Talk to \"Messenger of Devah [Jin-Heun]\". Thru the left gates down the hill. Keep to the right side and go to the ramp. There is this NPC.",
-                "You get in your \"Task\" inventory \"Moving trinket\" and you can move to VOD with it."
+                "[You get in your \"Task\" inventory \"Moving trinket\" and you can move to VOD with it.]"
             ],
             "Rewards": [
                 "Access to Valley of Devah"

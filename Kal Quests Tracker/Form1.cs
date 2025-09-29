@@ -71,7 +71,7 @@ namespace Kal_Quests_Tracker
             RefreshQuestList();
             ShowWelcomeMessage();
 
- 
+
         }
 
         private void ShowWelcomeMessage()
@@ -82,7 +82,7 @@ namespace Kal_Quests_Tracker
             checkBoxQuestCompleted.CheckedChanged += checkBoxQuestCompleted_CheckedChanged;
 
             richTextBoxQuestDetails.Clear();
-            
+
             AppendColoredText("Welcome to KalOnline Quest Tracker!\n\n", Color.Gold, true);
             AppendColoredText("Getting Started:\n", Color.Yellow, true);
             AppendColoredText("1. Enter your character name above\n", Color.White, false);
@@ -127,7 +127,7 @@ namespace Kal_Quests_Tracker
                     {
                         MessageBox.Show("No quests were loaded from the JSON file. Please check the file format.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
-                    
+
                     // Sort quests by level, then by type, then by quest ID 
                     allQuests = allQuests.OrderBy(q => q.Level)
                                        .ThenBy(q => q.Type)
@@ -176,9 +176,8 @@ namespace Kal_Quests_Tracker
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                // If there's an error loading the default profile, just continue with no profile
                 currentProfile = null;
                 textBoxCharacterName.Text = "";
             }
@@ -209,11 +208,21 @@ namespace Kal_Quests_Tracker
             {
                 listBoxQuests.Items.Add(quest);
             }
+
+
         }
 
         private bool IsQuestCompleted(Quest quest)
         {
             if (currentProfile == null) return false;
+            if (checkBoxQuestCompleted.Checked)
+            {
+                checkBoxQuestCompleted.ForeColor = Color.LightGreen;
+            }
+            else
+            {
+                checkBoxQuestCompleted.ForeColor = Color.RosyBrown;
+            }
             return currentProfile.IsQuestCompleted(currentProfile.GetQuestKey(quest));
         }
 
@@ -328,33 +337,101 @@ namespace Kal_Quests_Tracker
                 AppendColoredText(reward + "\n", Color.LightGreen, false);
             }
         }
-        
+
         private void AppendStepWithColors(string step, bool strikethrough = false)
         {
-            // Clean the step first - remove duplicate text and parentheses numbers
-            string cleanedStep = CleanStepText(step);
+            // Process the step text with images and colors
+            ProcessStepWithImagesAndColors(step, strikethrough);
+        }
+
+        private void ProcessStepWithImagesAndColors(string step, bool strikethrough = false)
+        {
+            // Find all image tags in the original step
+            var imageMatches = Regex.Matches(step, @"\[Image:([^\]]+)\]");
+
+            if (imageMatches.Count == 0)
+            {
+                // No images, process normally with colors
+                ProcessTextWithColors(step, strikethrough);
+                return;
+            }
+
+            // SIMPLIFIED: Process text with images without duplicate regex processing
+            ProcessTextWithImagesSimple(step, strikethrough);
+        }
+
+        private void ProcessTextWithImagesSimple(string step, bool strikethrough = false)
+        {
+            // Clean the text first
+            string cleanedText = CleanStepText(step);
+
+            // Check if this step contains a "Find" command - this will help us identify items
+            bool isFind = Regex.IsMatch(cleanedText, @"Find\s+", RegexOptions.IgnoreCase);
+
+            // Find all image tags
+            var imageMatches = Regex.Matches(cleanedText, @"\[Image:([^\]]+)\]");
+
+            int currentIndex = 0;
+
+            foreach (Match imageMatch in imageMatches)
+            {
+                // Process text before the image with colors (single regex pass)
+                if (imageMatch.Index > currentIndex)
+                {
+                    string beforeText = cleanedText.Substring(currentIndex, imageMatch.Index - currentIndex);
+                    ProcessTextWithColors(beforeText, strikethrough, isFind);
+                }
+
+                // Insert the image
+                string imageName = imageMatch.Groups[1].Value;
+                InsertInlineImage(imageName);
+
+                currentIndex = imageMatch.Index + imageMatch.Length;
+            }
+
+            // Process remaining text after the last image
+            if (currentIndex < cleanedText.Length)
+            {
+                string remainingText = cleanedText.Substring(currentIndex);
+                // Pass isFind=true for text after image in Find commands
+                ProcessTextWithColors(remainingText, strikethrough, isFind);
+            }
+        }
+
+
+
+        private void ProcessTextWithColors(string text, bool strikethrough = false, bool isFind = false)
+        {
+            if (string.IsNullOrEmpty(text)) return;
+
+            // Clean the text first - remove duplicate text and parentheses numbers
+            string cleanedText = CleanStepText(text);
 
             //FUCK MY LIFE THIS WAS HARD
-            // Patterns for different elements 
+            // Patterns for different elements
             var patterns = new List<(Regex regex, Color color, string type)>
             {
+                // Items (quoted text followed by comma) - MUST BE FIRST - THIS IS THE KEY PATTERN!
+                (new Regex(@"""([^""]+)"",", RegexOptions.IgnoreCase), Color.Orange, "item_with_comma"),
+
+                // Items (in quotes, after Find - backup pattern)
+                (new Regex(@"Find\s+[^""]*""([^""]+)""", RegexOptions.IgnoreCase), Color.Orange, "item"),
+
                 // Monsters in "Kill X" statements FUCK REGEX I HATE THIS SHIT
                 (new Regex(@"Kill\s+\d+\s+""([^""]+)""", RegexOptions.IgnoreCase), Color.IndianRed, "kill_monster"),
 
                 // Monsters after "by"
                 (new Regex(@"by\s+""([^""]+)""", RegexOptions.IgnoreCase), Color.IndianRed, "monster"),
 
-                // Items (in quotes, typically dropped items or quest items)
-                (new Regex(@"""([^""]+)"",?\s*which\s+(is|are)\s+dropped", RegexOptions.IgnoreCase), Color.Orange, "item"),
-
                 // Cities and locations (in quotes after "Go to" or similar)
-                (new Regex(@"(Go to|city|Pojdi v)\s+""([^""]+)""", RegexOptions.IgnoreCase), Color.Cyan, "location"),
+                (new Regex(@"(Go to|city|Go back to)\s+""([^""]+)""", RegexOptions.IgnoreCase), Color.Cyan, "location"),
 
                 // NPCs and characters (in quotes)
-                (new Regex(@"""([^""]+)""", RegexOptions.IgnoreCase), Color.LightBlue, "npc"),
+                (new Regex(@"Talk to ""([^""]+)""", RegexOptions.IgnoreCase), Color.LightBlue, "npc"),
+                (new Regex(@"Talk again to ""([^""]+)""", RegexOptions.IgnoreCase), Color.LightBlue, "npc"),
 
-                // Special characters in brackets
-                (new Regex(@"\[([^\]]+)\]", RegexOptions.IgnoreCase), Color.Magenta, "special")
+                // Special characters in brackets (but not Image tags)
+                (new Regex(@"\[(?!Image:)([^\]]+)\]", RegexOptions.IgnoreCase), Color.HotPink, "special")
             };
 
             var matches = new List<(int start, int length, Color color)>();
@@ -362,7 +439,7 @@ namespace Kal_Quests_Tracker
             // Find all matches
             foreach (var (regex, color, type) in patterns)
             {
-                var regexMatches = regex.Matches(cleanedStep);
+                var regexMatches = regex.Matches(cleanedText);
 
                 foreach (Match match in regexMatches)
                 {
@@ -422,24 +499,122 @@ namespace Kal_Quests_Tracker
                 // Add text before the match
                 if (match.start > currentIndex)
                 {
-                    string beforeText = cleanedStep.Substring(currentIndex, match.start - currentIndex);
+                    string beforeText = cleanedText.Substring(currentIndex, match.start - currentIndex);
                     AppendColoredText(beforeText, Color.White, false, strikethrough);
                 }
 
                 // Add the colored match
-                string matchText = cleanedStep.Substring(match.start, match.length);
+                string matchText = cleanedText.Substring(match.start, match.length);
                 AppendColoredText(matchText, match.color, false, strikethrough);
 
                 currentIndex = match.start + match.length;
             }
 
             // Add remaining text
-            if (currentIndex < cleanedStep.Length)
+            if (currentIndex < cleanedText.Length)
             {
-                string remainingText = cleanedStep.Substring(currentIndex);
+                string remainingText = cleanedText.Substring(currentIndex);
                 AppendColoredText(remainingText, Color.White, false, strikethrough);
             }
         }
+
+        private void InsertInlineImage(string imageName)
+        {
+            try
+            {
+                string imagePath = Path.Combine(Application.StartupPath, "Icons", imageName);
+
+                if (File.Exists(imagePath))
+                {
+                   
+                    using (var originalImage = Image.FromFile(imagePath))
+                    {
+                        var resizedImage = new Bitmap(30, 30);
+                        using (var graphics = Graphics.FromImage(resizedImage))
+                        {
+                            graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                            graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+                            graphics.Clear(Color.FromArgb(45, 45, 48));
+                            graphics.DrawImage(originalImage, 0, 0, 30, 30);
+                        }
+
+                        // Insert image directly into RichTextBox
+                        InsertImageIntoRichTextBox(resizedImage);
+                        // Add a small space after the image
+                        AppendColoredText(" ", Color.White, false, false);
+                    }
+                }
+                else
+                {
+                    AppendColoredText("[IMG:" + imageName + " NOT FOUND] ", Color.Red, false, false);
+                }
+            }
+            catch 
+            {
+                AppendColoredText("[IMG ERROR:" + imageName + "] ", Color.Red, false, false);
+            }
+        }
+
+        private void InsertImageIntoRichTextBox(Image image)
+        {
+            //ty chatgpt for this code :D
+            try
+            {
+                // Temporarily disable ReadOnly mode
+                bool wasReadOnly = richTextBoxQuestDetails.ReadOnly;
+                richTextBoxQuestDetails.ReadOnly = false;
+
+                // Save current selection
+                int selectionStart = richTextBoxQuestDetails.SelectionStart;
+                int selectionLength = richTextBoxQuestDetails.SelectionLength;
+
+                // Move to the end of the text
+                richTextBoxQuestDetails.Select(richTextBoxQuestDetails.TextLength, 0);
+
+                try
+                {
+                    // Store original clipboard content
+                    IDataObject originalClipboard = null;
+                    try
+                    {
+                        originalClipboard = Clipboard.GetDataObject();
+                    }
+                    catch { }
+
+                    // Set image to clipboard and paste
+                    Clipboard.SetImage(image);
+                    richTextBoxQuestDetails.Paste();
+
+                    // Restore original clipboard content
+                    if (originalClipboard != null)
+                    {
+                        try
+                        {
+                            Clipboard.SetDataObject(originalClipboard);
+                        }
+                        catch { }
+                    }
+                }
+                catch
+                {
+                    // If clipboard fails, insert a visual placeholder
+                    richTextBoxQuestDetails.AppendText("🖼️");
+                }
+
+                // Restore ReadOnly mode
+                richTextBoxQuestDetails.ReadOnly = wasReadOnly;
+            }
+            catch 
+            {
+                // Ensure ReadOnly is restored even if there's an error
+                richTextBoxQuestDetails.ReadOnly = true;
+
+                // Final fallback: insert text placeholder using AppendColoredText
+                AppendColoredText("[IMG]", Color.Red, false, false);
+            }
+        }
+
+
 
         private string CleanStepText(string step)
         {
@@ -449,10 +624,10 @@ namespace Kal_Quests_Tracker
             step = Regex.Replace(step, @"""([^""]+)""\1""", @"""$1""", RegexOptions.IgnoreCase);
 
             // Remove duplicate parentheses numbers (like (24)(24))
-            step = Regex.Replace(step, @"\((\d+)\)\1\)", @"", RegexOptions.IgnoreCase);
+            //step = Regex.Replace(step, @"\((\d+)\)\1\)", @"", RegexOptions.IgnoreCase);
 
             // Remove single parentheses numbers (like (24))
-            step = Regex.Replace(step, @"\s*\(\d+\)", "", RegexOptions.IgnoreCase);
+            //step = Regex.Replace(step, @"\s*\(\d+\)", "", RegexOptions.IgnoreCase);
 
             return step;
         }
@@ -552,10 +727,12 @@ namespace Kal_Quests_Tracker
                 if (checkBoxQuestCompleted.Checked)
                 {
                     currentProfile.MarkQuestCompleted(questKey);
+                    checkBoxQuestCompleted.ForeColor = Color.LightGreen;
                 }
                 else
                 {
                     currentProfile.MarkQuestIncomplete(questKey);
+                    checkBoxQuestCompleted.ForeColor = Color.RosyBrown;
                 }
 
                 // Refresh the quest list to show updated completion status
@@ -664,10 +841,8 @@ namespace Kal_Quests_Tracker
                 string jsonContent = JsonConvert.SerializeObject(defaultSettings, Formatting.Indented);
                 File.WriteAllText(defaultProfilePath, jsonContent);
             }
-            catch (Exception ex)
+            catch
             {
-                // Silently ignore errors when saving default profile
-                // We don't want to interrupt the user's workflow
             }
         }
 
@@ -750,7 +925,7 @@ namespace Kal_Quests_Tracker
 
         private void RichTextBoxQuestDetails_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            if (currentProfile == null )
+            if (currentProfile == null)
             {
                 MessageBox.Show("Please enter a character name first!", "No Character", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -768,7 +943,7 @@ namespace Kal_Quests_Tracker
                 var match = Regex.Match(clickedLine, @"^[☐☑]\s+(\d+)\.");
                 if (match.Success && int.TryParse(match.Groups[1].Value, out int stepNumber))
                 {
-                    int stepIndex = stepNumber - 1; 
+                    int stepIndex = stepNumber - 1;
 
                     if (stepIndex >= 0 && stepIndex < currentSelectedQuest.Steps.Count)
                     {
@@ -778,6 +953,66 @@ namespace Kal_Quests_Tracker
             }
         }
 
+        private void showImage(string mapName)
+        {
+            string mapPath = Path.Combine(Application.StartupPath, "Icons", mapName);
 
+            if (File.Exists(mapPath))
+            {
+                try
+                {
+                    System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+                    {
+                        FileName = mapPath,
+                        UseShellExecute = true
+                    });
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Failed to open map: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Map not found at:\n" + mapPath, "Missing File", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+        private void mapBTN_Click(object sender, EventArgs e)
+        {
+            // Path to the map image
+            showImage("questmap.jpg");
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //bird
+            showImage("bird.jpg");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //fort
+            showImage("fort.jpg");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //mine
+            showImage("mine.jpg");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //cargo
+            showImage("cargo.jpg");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //naro
+            showImage("narootuh.jpg");
+
+        }
     }
 }

@@ -1,14 +1,15 @@
-G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker.exe.config
-G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker.exe
-G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker.pdb
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker.csproj.AssemblyReference.cache
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal_Quests_Tracker.Properties.Resources.resources
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker.csproj.GenerateResource.cache
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker.csproj.CoreCompileInputs.cache
-G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker.exe
-G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker.pdb
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\QuestsData.json
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal_Quests_Tracker.Form1.resources
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Newtonsoft.Json.dll
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Newtonsoft.Json.xml
 G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Ques.A2FFA0F5.Up2Date
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker v0.5.exe.config
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker v0.5.exe
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\bin\Release\Kal Quests Tracker v0.5.pdb
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker v0.5.exe
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker v0.5.pdb
+G:\Kal\Kal Questing\Kal Quests Tracker\Kal Quests Tracker\Kal Quests Tracker\obj\Release\Kal Quests Tracker v0.5.exe.config
