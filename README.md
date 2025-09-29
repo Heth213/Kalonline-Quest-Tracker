@@ -2,10 +2,13 @@
 
 A modern, dark-themed quest tracker application for KalOnline with comprehensive quest management and character progress tracking.
 
-## Update v0.2
-**Added Steps Tracker**
-- You can double click any one of the steps to cross-out
-<img width="1086" height="793" alt="image" src="https://github.com/user-attachments/assets/26d53d16-5a7d-4204-94bc-830cfb174fd5" />
+## Update v0.5
+-Added Icons for Items and Monsters
+-Added all maps
+-Added Numbers for NPCs and Monsters
+-Fixed some bugs
+<img width="1086" height="793" alt="image" src="https://github.com/user-attachments/assets/6ad4b772-1922-4d48-8f69-ed530c9cb075" />
+
 
 
 
